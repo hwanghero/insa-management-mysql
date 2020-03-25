@@ -27,26 +27,61 @@ namespace project
         {
             String id = idbox.Text;
             String pw = pwbox.Text;
-            
-            if(db.logincheck(id, pw) == 1)
+
+            int miss = db.get_pwmiss(id);
+
+
+
+            // 아이디가 있는지?
+            if (db.idcheck(id) == 1)
             {
-                this.Hide();
-                main main = new main();
-                main.ShowDialog();
-                this.Close();
+                // 7일이 안지났는지?
+                if (db.day_check(id) == 0)
+                {
+                    // 비밀번호 5회를 안틀렸는지?
+                    if (miss < 5)
+                    {
+                        // 아이디 비밀번호가 맞는지?
+                        if (db.logincheck(id, pw) == 1)
+                        {
+                            // 날짜 업데이트
+                            db.day_update(id);
+                            this.Hide();
+                            main main = new main();
+                            main.ShowDialog();
+                            this.Close();
+                        }
+                        else
+                        {
+                            MessageBox.Show("아이디, 비밀번호가 틀립니다. (남은 횟수: " + (5 - miss) + ")");
+                            db.misscheck(id);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("비밀번호 5회 틀려서 아이디가 잠겨졌습니다.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("장기간 미사용으로 아이디가 잠겨졌습니다.");
+                }
             }
             else
             {
-                MessageBox.Show("아이디, 비밀번호가 틀립니다.");
-                db.misscheck(id);
-                
+                MessageBox.Show("없는 아이디입니다.");
             }
+
             // 해쉬 : project.user.Hash hash = new project.user.Hash();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if(rg.Get_Save_Registry().Equals("True"))
+            db.connectionOpen();
+
+            Console.WriteLine(rg.Get_ID_Registry());
+            Console.WriteLine(rg.Get_Save_Registry());
+            if (rg.Get_Save_Registry().Equals("True"))
             {
                 checkBox1.Checked = true;
                 idbox.Text = rg.Get_ID_Registry();
@@ -66,14 +101,14 @@ namespace project
                 // 공백상태에서 저장을 안해주면 폼을 킬때마다 공백으로 저장이됨
                 if (rg.Get_ID_Registry().Equals(""))
                     rg.Set_ID_Registry(id);
-  
+
                 rg.Set_Savecheck_Registry(true);
             }
             else
             {
                 rg.Set_Savecheck_Registry(false);
                 rg.Set_ID_Registry("");
-            } 
+            }
         }
 
         private void idbox_TextChanged(object sender, EventArgs e)
