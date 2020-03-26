@@ -5,6 +5,7 @@ desc user;
 select * from user;
 delete from user;
 
+INSERT INTO user(id, pw, password_miss, joinday) VALUES (1234, 1234, 0, "new");
 update user set password_miss=0; -- 업데이트
 alter table user add level varchar(10); -- 컬럼 추가
 alter table user MODIFY COLUMN joinday varchar(10); -- 컬럼 수정

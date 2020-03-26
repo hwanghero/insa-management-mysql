@@ -25,7 +25,8 @@ DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` varchar(50) DEFAULT NULL,
   `pw` varchar(50) DEFAULT NULL,
-  `password_miss` int DEFAULT NULL
+  `password_miss` int DEFAULT NULL,
+  `joinday` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

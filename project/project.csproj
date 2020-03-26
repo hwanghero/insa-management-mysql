@@ -71,6 +71,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="form_user\password_change.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_user\password_change.Designer.cs">
+      <DependentUpon>password_change.cs</DependentUpon>
+    </Compile>
     <Compile Include="server\database.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -78,16 +84,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="insa-record-control.cs">
+    <Compile Include="form_user\insa-record-control.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="insa-record-control.Designer.cs">
+    <Compile Include="form_user\insa-record-control.Designer.cs">
       <DependentUpon>insa-record-control.cs</DependentUpon>
     </Compile>
-    <Compile Include="insa-info.cs">
+    <Compile Include="form_user\insa-info.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="insa-info.Designer.cs">
+    <Compile Include="form_user\insa-info.Designer.cs">
       <DependentUpon>insa-info.cs</DependentUpon>
     </Compile>
     <Compile Include="main.cs">
@@ -103,11 +109,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="insa-info.resx">
+    <EmbeddedResource Include="form_user\insa-info.resx">
       <DependentUpon>insa-info.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="insa-record-control.resx">
+    <EmbeddedResource Include="form_user\insa-record-control.resx">
       <DependentUpon>insa-record-control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_user\password_change.resx">
+      <DependentUpon>password_change.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>

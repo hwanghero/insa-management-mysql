@@ -8,8 +8,15 @@ namespace project
     {
         // 장기간 미사용자 몇일?
         int dayCheck = 7;
+
+        static String db_server = "localhost";
+        static String db_database = "insa";
+        static String db_id = "root";
+        static String db_pw = "root";
+        static String db_format = String.Format($"Server={db_server};Database={db_database};Uid={db_id};Pwd={db_pw};");
+
         // 쿼리 접속
-        MySqlConnection connection = new MySqlConnection("Server=localhost;Database=insa;Uid=root;Pwd=1234;");
+        MySqlConnection connection = new MySqlConnection(db_format);
 
         public void connectionOpen()
         {
@@ -143,13 +150,20 @@ namespace project
                     {
                         if (reader.Read())
                         {
-                            DateTime T1 = DateTime.Parse(reader.GetString(0));
-                            DateTime T2 = DateTime.Parse(DateTime.Now.ToString("2020-03-24"));
-                            TimeSpan TS = T1 - T2;
-                            int diffDay = TS.Days;
-                            if (diffDay > dayCheck)
+                            if (reader.GetString(0).Equals("new")){
+                                Console.WriteLine("new");
+                            }
+                            else
                             {
-                                datacheck = 1;
+                                DateTime T1 = DateTime.Parse(reader.GetString(0));
+                                DateTime T2 = DateTime.Parse(DateTime.Now.ToString("yyyy-MM-dd"));
+                                TimeSpan TS = T1 - T2;
+                                int diffDay = TS.Days;
+                                if (diffDay > dayCheck)
+                                {
+                                    datacheck = 1;
+                                }
+                                Console.WriteLine("old");
                             }
                         }
                         if (reader != null) reader.Close();
