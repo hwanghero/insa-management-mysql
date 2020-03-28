@@ -6,6 +6,13 @@ namespace project
 {
     class database
     {
+        /*
+         * 여기에 포함된 DB
+         * 1. 날짜 수정, 업데이트
+         * 2. 아이디 체크
+         * 3. 비밀번호 5회 틀릴시 체크
+         */
+         
         // 장기간 미사용자 몇일?
         int dayCheck = 7;
 
@@ -16,7 +23,7 @@ namespace project
         static String db_format = String.Format($"Server={db_server};Database={db_database};Uid={db_id};Pwd={db_pw};");
 
         // 쿼리 접속
-        MySqlConnection connection = new MySqlConnection(db_format);
+        public MySqlConnection connection = new MySqlConnection(db_format);
 
         public void connectionOpen()
         {
@@ -26,8 +33,7 @@ namespace project
         public int idcheck(String id)
         {
             int check = 0;
-            string selectQuery;
-            selectQuery = "Select * from user where id=@id";
+            string selectQuery = "Select * from user where id=@id";
 
             try
             {
@@ -53,6 +59,7 @@ namespace project
             return check;
         }
 
+        // 관리자일경우 전환값이 2임
         public int logincheck(String id, String pw)
         {
             int check = 0;
@@ -71,11 +78,17 @@ namespace project
                     {
                         if (reader.Read())
                         {
-                            check = 1;
+                            if (reader.GetString(4).Equals("admin"))
+                            {
+                                check = 2;
+                            }
+                            else
+                            {
+                                check = 1;
+                            }
                         }
                     }
                 }
-
             }
             catch (Exception ex)
             {

@@ -18,6 +18,18 @@ namespace project
         // 레지스트리 연결 객체
         Registry rg = new Registry();
 
+        static String staticid;
+
+        public static void setid(String id)
+        {
+            staticid = id;
+        }
+
+        public static String getid()
+        {
+            return staticid;
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -30,8 +42,6 @@ namespace project
 
             int miss = db.get_pwmiss(id);
 
-
-
             // 아이디가 있는지?
             if (db.idcheck(id) == 1)
             {
@@ -41,14 +51,31 @@ namespace project
                     // 비밀번호 5회를 안틀렸는지?
                     if (miss < 5)
                     {
+                        setid(id);
+                        Console.WriteLine("관리자체크: " + admin_radio);
+                        Console.WriteLine("return 체크: " + db.logincheck(id, pw));
+
                         // 아이디 비밀번호가 맞는지?
-                        if (db.logincheck(id, pw) == 1)
+                        if (db.logincheck(id, pw) == 1 || db.logincheck(id, pw) == 2)
                         {
                             // 날짜 업데이트
                             db.day_update(id);
                             this.Hide();
-                            main main = new main();
-                            main.ShowDialog();
+
+                            if (db.logincheck(id, pw) == 1 && admin_radio.Checked)
+                            {
+                                MessageBox.Show("권한이 없습니다\n사용자 관리 프로그램으로 실행됩니다");
+                            }
+                            if (db.logincheck(id, pw) == 2 && admin_radio.Checked)
+                            {
+                                form_admin.admin_main admin_main = new form_admin.admin_main();
+                                admin_main.ShowDialog();
+                            }
+                            else 
+                            {
+                                main main = new main();
+                                main.ShowDialog();
+                            }
                             this.Close();
                         }
                         else

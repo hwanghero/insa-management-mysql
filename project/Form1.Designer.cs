@@ -35,6 +35,8 @@
             this.idbox = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.admin_radio = new System.Windows.Forms.RadioButton();
+            this.user_radio = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // pwbox
@@ -103,7 +105,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.checkBox1.Location = new System.Drawing.Point(364, 134);
+            this.checkBox1.Location = new System.Drawing.Point(364, 135);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(131, 24);
             this.checkBox1.TabIndex = 5;
@@ -111,12 +113,38 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // admin_radio
+            // 
+            this.admin_radio.AutoSize = true;
+            this.admin_radio.Font = new System.Drawing.Font("굴림", 12F);
+            this.admin_radio.Location = new System.Drawing.Point(56, 134);
+            this.admin_radio.Name = "admin_radio";
+            this.admin_radio.Size = new System.Drawing.Size(90, 24);
+            this.admin_radio.TabIndex = 6;
+            this.admin_radio.Text = "관리자";
+            this.admin_radio.UseVisualStyleBackColor = true;
+            // 
+            // user_radio
+            // 
+            this.user_radio.AutoSize = true;
+            this.user_radio.Checked = true;
+            this.user_radio.Font = new System.Drawing.Font("굴림", 12F);
+            this.user_radio.Location = new System.Drawing.Point(152, 134);
+            this.user_radio.Name = "user_radio";
+            this.user_radio.Size = new System.Drawing.Size(90, 24);
+            this.user_radio.TabIndex = 7;
+            this.user_radio.TabStop = true;
+            this.user_radio.Text = "사용자";
+            this.user_radio.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(545, 247);
+            this.Controls.Add(this.user_radio);
+            this.Controls.Add(this.admin_radio);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
@@ -141,6 +169,8 @@
         private System.Windows.Forms.TextBox idbox;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.RadioButton admin_radio;
+        private System.Windows.Forms.RadioButton user_radio;
     }
 }
 
