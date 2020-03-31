@@ -71,11 +71,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin\user_add.cs" />
+    <Compile Include="admin\user_list.cs" />
     <Compile Include="form_admin\admin_main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="form_admin\admin_main.Designer.cs">
       <DependentUpon>admin_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_admin\admin_user_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_admin\admin_user_add.Designer.cs">
+      <DependentUpon>admin_user_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_admin\admin_user_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_admin\admin_user_info.Designer.cs">
+      <DependentUpon>admin_user_info.cs</DependentUpon>
     </Compile>
     <Compile Include="form_user\password_change.cs">
       <SubType>Form</SubType>
@@ -118,6 +132,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="form_admin\admin_main.resx">
       <DependentUpon>admin_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_admin\admin_user_add.resx">
+      <DependentUpon>admin_user_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_admin\admin_user_info.resx">
+      <DependentUpon>admin_user_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form_user\insa-info.resx">
       <DependentUpon>insa-info.cs</DependentUpon>

@@ -9,7 +9,7 @@ namespace project.user
 {
     class Hash
     {
-        public static string EncryptSHA512(string Data)
+        public string EncryptSHA512(string Data)
         {
             SHA512 sha = new SHA512Managed();
             byte[] hash = sha.ComputeHash(Encoding.ASCII.GetBytes(Data));

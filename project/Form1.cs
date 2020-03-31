@@ -17,6 +17,8 @@ namespace project
         database db = new database();
         // 레지스트리 연결 객체
         Registry rg = new Registry();
+        // 해쉬 클래스
+        user.Hash hash2 = new user.Hash();
 
         static String staticid;
 
@@ -38,7 +40,7 @@ namespace project
         private void button1_Click(object sender, EventArgs e)
         {
             String id = idbox.Text;
-            String pw = pwbox.Text;
+            String pw = hash2.EncryptSHA512(pwbox.Text);
 
             int miss = db.get_pwmiss(id);
 
@@ -52,8 +54,6 @@ namespace project
                     if (miss < 5)
                     {
                         setid(id);
-                        Console.WriteLine("관리자체크: " + admin_radio);
-                        Console.WriteLine("return 체크: " + db.logincheck(id, pw));
 
                         // 아이디 비밀번호가 맞는지?
                         if (db.logincheck(id, pw) == 1 || db.logincheck(id, pw) == 2)
@@ -98,8 +98,7 @@ namespace project
             {
                 MessageBox.Show("없는 아이디입니다.");
             }
-
-            // 해쉬 : project.user.Hash hash = new project.user.Hash();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
