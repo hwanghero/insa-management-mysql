@@ -60,12 +60,12 @@ namespace project.form_admin
             for (int i = 0; i < form_name.Length - 1; i++)
                 form_hide(form_name[i]);
 
-            if (e.Node.Text.Equals("사용자 추가"))
+            if (e.Node.Text.Equals("사용자 및 관리자 추가"))
             {
                 admin_user_add.Show();
             }
 
-            if (e.Node.Text.Equals("사용자 정보"))
+            if (e.Node.Text.Equals("사용자 조회 및 수정"))
             {
                 admin_user_info.Show();
             }

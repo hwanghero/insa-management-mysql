@@ -14,7 +14,7 @@ namespace project
          */
          
         // 장기간 미사용자 몇일?
-        int dayCheck = 7;
+        int dayCheck = 30;
 
         static String db_server = "localhost";
         static String db_database = "insa";
@@ -78,7 +78,7 @@ namespace project
                     {
                         if (reader.Read())
                         {
-                            if (reader.GetString(4).Equals("admin"))
+                            if (reader.GetString(4).Equals("관리자"))
                             {
                                 check = 2;
                             }

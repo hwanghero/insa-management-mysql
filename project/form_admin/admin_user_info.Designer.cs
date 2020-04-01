@@ -46,7 +46,8 @@
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dataGridView1.Size = new System.Drawing.Size(648, 384);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.dataGridView1_ControlAdded);
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting);
             // 
             // button1
             // 
@@ -64,7 +65,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(328, 392);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(320, 64);
+            this.button2.Size = new System.Drawing.Size(294, 64);
             this.button2.TabIndex = 2;
             this.button2.Text = "취소";
             this.button2.UseVisualStyleBackColor = true;
@@ -75,7 +76,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(647, 456);
+            this.ClientSize = new System.Drawing.Size(620, 456);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);

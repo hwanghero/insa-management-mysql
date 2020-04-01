@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 18F);
-            this.label1.Location = new System.Drawing.Point(183, 100);
+            this.label1.Location = new System.Drawing.Point(177, 106);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 30);
             this.label1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // addbutton
             // 
             this.addbutton.Font = new System.Drawing.Font("굴림", 18F);
-            this.addbutton.Location = new System.Drawing.Point(188, 292);
+            this.addbutton.Location = new System.Drawing.Point(182, 298);
             this.addbutton.Name = "addbutton";
             this.addbutton.Size = new System.Drawing.Size(302, 50);
             this.addbutton.TabIndex = 1;
@@ -61,7 +61,7 @@
             // idbox
             // 
             this.idbox.Font = new System.Drawing.Font("굴림", 18F);
-            this.idbox.Location = new System.Drawing.Point(335, 97);
+            this.idbox.Location = new System.Drawing.Point(329, 103);
             this.idbox.Name = "idbox";
             this.idbox.Size = new System.Drawing.Size(155, 42);
             this.idbox.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 18F);
-            this.label2.Location = new System.Drawing.Point(183, 157);
+            this.label2.Location = new System.Drawing.Point(177, 163);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 30);
             this.label2.TabIndex = 3;
@@ -79,7 +79,7 @@
             // pwbox
             // 
             this.pwbox.Font = new System.Drawing.Font("굴림", 18F);
-            this.pwbox.Location = new System.Drawing.Point(335, 154);
+            this.pwbox.Location = new System.Drawing.Point(329, 160);
             this.pwbox.Name = "pwbox";
             this.pwbox.Size = new System.Drawing.Size(155, 42);
             this.pwbox.TabIndex = 4;
@@ -88,7 +88,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 18F);
-            this.label3.Location = new System.Drawing.Point(183, 211);
+            this.label3.Location = new System.Drawing.Point(177, 217);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 30);
             this.label3.TabIndex = 5;
@@ -102,7 +102,7 @@
             this.levelbox.Items.AddRange(new object[] {
             "사용자",
             "관리자"});
-            this.levelbox.Location = new System.Drawing.Point(335, 211);
+            this.levelbox.Location = new System.Drawing.Point(329, 217);
             this.levelbox.Name = "levelbox";
             this.levelbox.ScrollAlwaysVisible = true;
             this.levelbox.Size = new System.Drawing.Size(155, 64);
@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 456);
+            this.ClientSize = new System.Drawing.Size(620, 456);
             this.Controls.Add(this.levelbox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pwbox);

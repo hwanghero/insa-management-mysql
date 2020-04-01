@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("사용자 추가");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("사용자 정보");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("사용자 관리", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("사용자 승인관리");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("사용자 및 관리자 추가");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("사용자 조회 및 수정");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("사용자 관리", new System.Windows.Forms.TreeNode[] {
             treeNode1,
-            treeNode2});
+            treeNode2,
+            treeNode3});
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
@@ -41,23 +43,25 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "노드2";
-            treeNode1.Text = "사용자 추가";
-            treeNode2.Name = "노드1";
-            treeNode2.Text = "사용자 정보";
-            treeNode3.Name = "노드0";
-            treeNode3.Text = "사용자 관리";
+            treeNode1.Name = "노드0";
+            treeNode1.Text = "사용자 승인관리";
+            treeNode2.Name = "노드2";
+            treeNode2.Text = "사용자 및 관리자 추가";
+            treeNode3.Name = "노드1";
+            treeNode3.Text = "사용자 조회 및 수정";
+            treeNode4.Name = "노드0";
+            treeNode4.Text = "사용자 관리";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode3});
-            this.treeView1.Size = new System.Drawing.Size(158, 460);
+            treeNode4});
+            this.treeView1.Size = new System.Drawing.Size(183, 460);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(155, 0);
+            this.panel1.Location = new System.Drawing.Point(182, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(647, 456);
+            this.panel1.Size = new System.Drawing.Size(620, 456);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 

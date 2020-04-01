@@ -42,7 +42,7 @@
             // pwbox
             // 
             this.pwbox.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pwbox.Location = new System.Drawing.Point(214, 77);
+            this.pwbox.Location = new System.Drawing.Point(221, 96);
             this.pwbox.Multiline = true;
             this.pwbox.Name = "pwbox";
             this.pwbox.PasswordChar = '*';
@@ -52,7 +52,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(46, 172);
+            this.button1.Location = new System.Drawing.Point(53, 191);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(218, 63);
             this.button1.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(77, 27);
+            this.label1.Location = new System.Drawing.Point(84, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 38);
             this.label1.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(40, 81);
+            this.label2.Location = new System.Drawing.Point(47, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(169, 38);
             this.label2.TabIndex = 3;
@@ -83,7 +83,7 @@
             // idbox
             // 
             this.idbox.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.idbox.Location = new System.Drawing.Point(214, 21);
+            this.idbox.Location = new System.Drawing.Point(221, 40);
             this.idbox.Multiline = true;
             this.idbox.Name = "idbox";
             this.idbox.Size = new System.Drawing.Size(281, 47);
@@ -93,9 +93,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(282, 172);
+            this.button2.Location = new System.Drawing.Point(54, 272);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(213, 63);
+            this.button2.Size = new System.Drawing.Size(448, 63);
             this.button2.TabIndex = 4;
             this.button2.Text = "종료";
             this.button2.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.checkBox1.Location = new System.Drawing.Point(364, 135);
+            this.checkBox1.Location = new System.Drawing.Point(371, 154);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(131, 24);
             this.checkBox1.TabIndex = 5;
@@ -117,7 +117,7 @@
             // 
             this.admin_radio.AutoSize = true;
             this.admin_radio.Font = new System.Drawing.Font("굴림", 12F);
-            this.admin_radio.Location = new System.Drawing.Point(56, 134);
+            this.admin_radio.Location = new System.Drawing.Point(63, 153);
             this.admin_radio.Name = "admin_radio";
             this.admin_radio.Size = new System.Drawing.Size(90, 24);
             this.admin_radio.TabIndex = 6;
@@ -129,7 +129,7 @@
             this.user_radio.AutoSize = true;
             this.user_radio.Checked = true;
             this.user_radio.Font = new System.Drawing.Font("굴림", 12F);
-            this.user_radio.Location = new System.Drawing.Point(152, 134);
+            this.user_radio.Location = new System.Drawing.Point(159, 153);
             this.user_radio.Name = "user_radio";
             this.user_radio.Size = new System.Drawing.Size(90, 24);
             this.user_radio.TabIndex = 7;
@@ -142,7 +142,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(545, 247);
+            this.ClientSize = new System.Drawing.Size(555, 365);
             this.Controls.Add(this.user_radio);
             this.Controls.Add(this.admin_radio);
             this.Controls.Add(this.checkBox1);

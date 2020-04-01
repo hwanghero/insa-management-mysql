@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="admin\user_add.cs" />
     <Compile Include="admin\user_list.cs" />
+    <Compile Include="admin\user_update.cs" />
     <Compile Include="form_admin\admin_main.cs">
       <SubType>Form</SubType>
     </Compile>
