@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace project
+namespace project.form_user.insa_record_official.insa_basic
 {
-    public partial class insainfo : Form
+    public partial class insa_basic_delete : Form
     {
-        public insainfo()
+        public insa_basic_delete()
         {
             InitializeComponent();
         }

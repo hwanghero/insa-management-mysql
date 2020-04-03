@@ -87,3 +87,7 @@ C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_admin.admin_main.resources
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_admin.admin_user_info.resources
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_admin.admin_user_add.resources
+C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_base.insa_department.resources
+C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_base.insa_position.resources
+C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_base.insa_rank.resources
+C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_record_official.insa_basic.insa_basic_insert.resources

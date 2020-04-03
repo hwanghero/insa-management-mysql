@@ -1,6 +1,6 @@
-﻿namespace project
+﻿namespace project.form_user.insa_base
 {
-    partial class insainfo
+    partial class insa_department
     {
         /// <summary>
         /// Required designer variable.
@@ -34,24 +34,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(624, 279);
+            this.label1.Location = new System.Drawing.Point(560, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "테스트";
+            this.label1.Text = "label1";
             // 
-            // insainfo
+            // insa_department
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1205, 719);
+            this.ClientSize = new System.Drawing.Size(1187, 672);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "insainfo";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "insainfo";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Name = "insa_department";
+            this.Text = "부서코드관리";
+            this.Load += new System.EventHandler(this.insa_department_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

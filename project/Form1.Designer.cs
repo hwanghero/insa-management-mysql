@@ -93,9 +93,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(54, 272);
+            this.button2.Location = new System.Drawing.Point(293, 191);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(448, 63);
+            this.button2.Size = new System.Drawing.Size(209, 63);
             this.button2.TabIndex = 4;
             this.button2.Text = "종료";
             this.button2.UseVisualStyleBackColor = true;
@@ -142,7 +142,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(555, 365);
+            this.ClientSize = new System.Drawing.Size(555, 285);
             this.Controls.Add(this.user_radio);
             this.Controls.Add(this.admin_radio);
             this.Controls.Add(this.checkBox1);

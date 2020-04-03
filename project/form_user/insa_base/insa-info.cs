@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace project
 {
-    public partial class insacontrol : Form
+    public partial class insainfo : Form
     {
-        public insacontrol()
+        public insainfo()
         {
             InitializeComponent();
+        }
+
+        private void insainfo_Load(object sender, EventArgs e)
+        {
+            user.form_user_setting form_setting = new user.form_user_setting();
+            form_setting.setting(this);
         }
     }
 }
