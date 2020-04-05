@@ -143,5 +143,10 @@ namespace project.form_admin
                 e.CellStyle.BackColor = Color.LightGray;
             }
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

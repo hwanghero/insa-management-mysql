@@ -32,7 +32,6 @@
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -68,56 +67,72 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox9 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox11 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox12 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox13 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox14 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox15 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox16 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox17 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox18 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox19 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox20 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox21 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox22 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox23 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox24 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox25 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox26 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox27 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox28 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox29 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox30 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.e_no_box = new System.Windows.Forms.TextBox();
+            this.rrn_box = new System.Windows.Forms.MaskedTextBox();
+            this.kor_name_box = new System.Windows.Forms.MaskedTextBox();
+            this.chn_name_box = new System.Windows.Forms.MaskedTextBox();
+            this.address_box = new System.Windows.Forms.MaskedTextBox();
+            this.zip_box = new System.Windows.Forms.MaskedTextBox();
+            this.eng_name_box = new System.Windows.Forms.TextBox();
+            this.email1_box = new System.Windows.Forms.MaskedTextBox();
+            this.phone_box = new System.Windows.Forms.MaskedTextBox();
+            this.residence_box = new System.Windows.Forms.TextBox();
+            this.identity_box = new System.Windows.Forms.MaskedTextBox();
+            this.rank_box = new System.Windows.Forms.MaskedTextBox();
+            this.newbie_month_box = new System.Windows.Forms.TextBox();
+            this.contract_box = new System.Windows.Forms.MaskedTextBox();
+            this.bank_number_box2 = new System.Windows.Forms.MaskedTextBox();
+            this.bank_master_box2 = new System.Windows.Forms.TextBox();
+            this.bank_name_box2 = new System.Windows.Forms.MaskedTextBox();
+            this.bank_number_box = new System.Windows.Forms.MaskedTextBox();
+            this.bank_master_box = new System.Windows.Forms.MaskedTextBox();
+            this.bank_name_box = new System.Windows.Forms.TextBox();
+            this.department_box = new System.Windows.Forms.TextBox();
+            this.ok_button = new System.Windows.Forms.Button();
+            this.cancel_button = new System.Windows.Forms.Button();
+            this.apply_button = new System.Windows.Forms.Button();
+            this.label46 = new System.Windows.Forms.Label();
+            this.email2_box = new System.Windows.Forms.MaskedTextBox();
+            this.newbie_check_box = new System.Windows.Forms.ComboBox();
+            this.mil_catagory_box = new System.Windows.Forms.ComboBox();
+            this.slave_start = new System.Windows.Forms.DateTimePicker();
+            this.slave_end = new System.Windows.Forms.DateTimePicker();
+            this.join_box = new System.Windows.Forms.DateTimePicker();
+            this.goodbye_box = new System.Windows.Forms.DateTimePicker();
+            this.now_newbie_box = new System.Windows.Forms.DateTimePicker();
+            this.now_department_box = new System.Windows.Forms.DateTimePicker();
+            this.now_spot_box = new System.Windows.Forms.DateTimePicker();
+            this.now_rank_box = new System.Windows.Forms.DateTimePicker();
+            this.sexxbox = new System.Windows.Forms.ComboBox();
+            this.mil_rank_box = new System.Windows.Forms.ComboBox();
+            this.marry_box = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.home_box = new System.Windows.Forms.MaskedTextBox();
+            this.mil_ok_box = new System.Windows.Forms.ComboBox();
+            this.mil_group = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.badtime_box = new System.Windows.Forms.DateTimePicker();
+            this.goodtime_box = new System.Windows.Forms.DateTimePicker();
+            this.state_box = new System.Windows.Forms.ComboBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.note_box = new System.Windows.Forms.RichTextBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.dut_box = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.mil_group.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // label41
             // 
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("굴림", 12F);
-            this.label41.Location = new System.Drawing.Point(586, 184);
+            this.label41.Location = new System.Drawing.Point(13, 409);
             this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(110, 16);
@@ -128,7 +143,7 @@
             // 
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("굴림", 12F);
-            this.label40.Location = new System.Drawing.Point(608, 152);
+            this.label40.Location = new System.Drawing.Point(13, 190);
             this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(88, 16);
@@ -139,7 +154,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("굴림", 12F);
-            this.label39.Location = new System.Drawing.Point(608, 120);
+            this.label39.Location = new System.Drawing.Point(13, 153);
             this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(88, 16);
@@ -150,29 +165,18 @@
             // 
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("굴림", 12F);
-            this.label38.Location = new System.Drawing.Point(608, 91);
+            this.label38.Location = new System.Drawing.Point(13, 115);
             this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(88, 16);
             this.label38.TabIndex = 26;
             this.label38.Text = "현직급일자";
             // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("굴림", 12F);
-            this.label37.Location = new System.Drawing.Point(608, 53);
-            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(72, 16);
-            this.label37.TabIndex = 27;
-            this.label37.Text = "참고사항";
-            // 
             // label36
             // 
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("굴림", 12F);
-            this.label36.Location = new System.Drawing.Point(608, 24);
+            this.label36.Location = new System.Drawing.Point(13, 80);
             this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(84, 16);
@@ -183,7 +187,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("굴림", 12F);
-            this.label35.Location = new System.Drawing.Point(320, 461);
+            this.label35.Location = new System.Drawing.Point(13, 21);
             this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(84, 16);
@@ -194,7 +198,7 @@
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("굴림", 12F);
-            this.label34.Location = new System.Drawing.Point(332, 490);
+            this.label34.Location = new System.Drawing.Point(13, 298);
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(72, 16);
@@ -205,7 +209,7 @@
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("굴림", 12F);
-            this.label33.Location = new System.Drawing.Point(332, 434);
+            this.label33.Location = new System.Drawing.Point(13, 625);
             this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(72, 16);
@@ -216,7 +220,7 @@
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("굴림", 12F);
-            this.label32.Location = new System.Drawing.Point(332, 399);
+            this.label32.Location = new System.Drawing.Point(13, 593);
             this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(72, 16);
@@ -227,7 +231,7 @@
             // 
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("굴림", 12F);
-            this.label31.Location = new System.Drawing.Point(332, 370);
+            this.label31.Location = new System.Drawing.Point(13, 557);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(72, 16);
@@ -238,7 +242,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("굴림", 12F);
-            this.label30.Location = new System.Drawing.Point(624, 247);
+            this.label30.Location = new System.Drawing.Point(13, 264);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(72, 16);
@@ -249,7 +253,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("굴림", 12F);
-            this.label29.Location = new System.Drawing.Point(624, 215);
+            this.label29.Location = new System.Drawing.Point(13, 227);
             this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(72, 16);
@@ -260,7 +264,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("굴림", 12F);
-            this.label28.Location = new System.Drawing.Point(316, 337);
+            this.label28.Location = new System.Drawing.Point(13, 521);
             this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(88, 16);
@@ -271,7 +275,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("굴림", 12F);
-            this.label27.Location = new System.Drawing.Point(316, 309);
+            this.label27.Location = new System.Drawing.Point(13, 483);
             this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(88, 16);
@@ -282,7 +286,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("굴림", 12F);
-            this.label26.Location = new System.Drawing.Point(275, 273);
+            this.label26.Location = new System.Drawing.Point(13, 446);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(131, 16);
@@ -293,7 +297,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("굴림", 12F);
-            this.label25.Location = new System.Drawing.Point(294, 240);
+            this.label25.Location = new System.Drawing.Point(13, 371);
             this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(110, 16);
@@ -304,7 +308,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("굴림", 12F);
-            this.label24.Location = new System.Drawing.Point(332, 208);
+            this.label24.Location = new System.Drawing.Point(13, 335);
             this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(72, 16);
@@ -315,7 +319,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("굴림", 12F);
-            this.label23.Location = new System.Drawing.Point(250, 181);
+            this.label23.Location = new System.Drawing.Point(23, 229);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(156, 16);
@@ -326,7 +330,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("굴림", 12F);
-            this.label22.Location = new System.Drawing.Point(264, 152);
+            this.label22.Location = new System.Drawing.Point(23, 191);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(140, 16);
@@ -337,7 +341,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("굴림", 12F);
-            this.label21.Location = new System.Drawing.Point(272, 117);
+            this.label21.Location = new System.Drawing.Point(23, 153);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(140, 16);
@@ -348,7 +352,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("굴림", 12F);
-            this.label20.Location = new System.Drawing.Point(258, 88);
+            this.label20.Location = new System.Drawing.Point(23, 111);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(148, 16);
@@ -359,7 +363,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("굴림", 12F);
-            this.label18.Location = new System.Drawing.Point(272, 56);
+            this.label18.Location = new System.Drawing.Point(23, 76);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(132, 16);
@@ -370,7 +374,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("굴림", 12F);
-            this.label17.Location = new System.Drawing.Point(272, 24);
+            this.label17.Location = new System.Drawing.Point(23, 42);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(132, 16);
@@ -381,7 +385,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("굴림", 12F);
-            this.label16.Location = new System.Drawing.Point(36, 487);
+            this.label16.Location = new System.Drawing.Point(19, 486);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(72, 16);
@@ -392,7 +396,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("굴림", 12F);
-            this.label15.Location = new System.Drawing.Point(29, 455);
+            this.label15.Location = new System.Drawing.Point(23, 109);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(84, 16);
@@ -403,7 +407,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("굴림", 12F);
-            this.label14.Location = new System.Drawing.Point(30, 427);
+            this.label14.Location = new System.Drawing.Point(23, 71);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(84, 16);
@@ -414,7 +418,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("굴림", 12F);
-            this.label13.Location = new System.Drawing.Point(-2, 395);
+            this.label13.Location = new System.Drawing.Point(23, 34);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(116, 16);
@@ -425,7 +429,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("굴림", 12F);
-            this.label12.Location = new System.Drawing.Point(20, 363);
+            this.label12.Location = new System.Drawing.Point(19, 446);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(88, 16);
@@ -436,7 +440,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("굴림", 12F);
-            this.label11.Location = new System.Drawing.Point(20, 334);
+            this.label11.Location = new System.Drawing.Point(19, 405);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 16);
@@ -447,18 +451,18 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("굴림", 12F);
-            this.label10.Location = new System.Drawing.Point(-2, 302);
+            this.label10.Location = new System.Drawing.Point(19, 370);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 16);
+            this.label10.Size = new System.Drawing.Size(84, 16);
             this.label10.TabIndex = 12;
-            this.label10.Text = "연락처(휴대폰)";
+            this.label10.Text = "연락처(폰)";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("굴림", 12F);
-            this.label9.Location = new System.Drawing.Point(29, 277);
+            this.label9.Location = new System.Drawing.Point(18, 335);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(56, 16);
@@ -469,7 +473,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("굴림", 12F);
-            this.label8.Location = new System.Drawing.Point(20, 237);
+            this.label8.Location = new System.Drawing.Point(19, 297);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 16);
@@ -480,7 +484,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("굴림", 12F);
-            this.label7.Location = new System.Drawing.Point(13, 205);
+            this.label7.Location = new System.Drawing.Point(19, 259);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 16);
@@ -491,7 +495,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("굴림", 12F);
-            this.label6.Location = new System.Drawing.Point(20, 174);
+            this.label6.Location = new System.Drawing.Point(19, 220);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 16);
@@ -502,7 +506,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("굴림", 12F);
-            this.label5.Location = new System.Drawing.Point(11, 142);
+            this.label5.Location = new System.Drawing.Point(19, 184);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 16);
@@ -513,7 +517,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 12F);
-            this.label4.Location = new System.Drawing.Point(13, 110);
+            this.label4.Location = new System.Drawing.Point(19, 146);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 16);
@@ -524,7 +528,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 12F);
-            this.label3.Location = new System.Drawing.Point(11, 81);
+            this.label3.Location = new System.Drawing.Point(18, 110);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 16);
@@ -535,7 +539,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 12F);
-            this.label2.Location = new System.Drawing.Point(10, 49);
+            this.label2.Location = new System.Drawing.Point(18, 72);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 16);
@@ -546,454 +550,615 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 12F);
-            this.label1.Location = new System.Drawing.Point(13, 17);
+            this.label1.Location = new System.Drawing.Point(18, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "사원번호";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(122, 14);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(128, 26);
-            this.textBox1.TabIndex = 43;
+            // e_no_box
+            // 
+            this.e_no_box.Location = new System.Drawing.Point(158, 32);
+            this.e_no_box.Margin = new System.Windows.Forms.Padding(4);
+            this.e_no_box.Name = "e_no_box";
+            this.e_no_box.Size = new System.Drawing.Size(128, 26);
+            this.e_no_box.TabIndex = 43;
+            this.e_no_box.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.e_no_box_KeyPress);
             // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(122, 46);
-            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox1.TabIndex = 44;
+            // rrn_box
+            // 
+            this.rrn_box.Location = new System.Drawing.Point(158, 69);
+            this.rrn_box.Margin = new System.Windows.Forms.Padding(4);
+            this.rrn_box.Name = "rrn_box";
+            this.rrn_box.Size = new System.Drawing.Size(128, 26);
+            this.rrn_box.TabIndex = 44;
             // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(122, 78);
-            this.maskedTextBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox2.TabIndex = 44;
+            // kor_name_box
+            // 
+            this.kor_name_box.Location = new System.Drawing.Point(158, 107);
+            this.kor_name_box.Margin = new System.Windows.Forms.Padding(4);
+            this.kor_name_box.Name = "kor_name_box";
+            this.kor_name_box.Size = new System.Drawing.Size(128, 26);
+            this.kor_name_box.TabIndex = 44;
             // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(122, 107);
-            this.maskedTextBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox3.TabIndex = 44;
+            // chn_name_box
+            // 
+            this.chn_name_box.Location = new System.Drawing.Point(158, 143);
+            this.chn_name_box.Margin = new System.Windows.Forms.Padding(4);
+            this.chn_name_box.Name = "chn_name_box";
+            this.chn_name_box.Size = new System.Drawing.Size(128, 26);
+            this.chn_name_box.TabIndex = 44;
             // 
-            // maskedTextBox4
-            // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(122, 234);
-            this.maskedTextBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox4.TabIndex = 46;
+            // address_box
+            // 
+            this.address_box.Location = new System.Drawing.Point(158, 295);
+            this.address_box.Margin = new System.Windows.Forms.Padding(4);
+            this.address_box.Name = "address_box";
+            this.address_box.Size = new System.Drawing.Size(128, 26);
+            this.address_box.TabIndex = 46;
             // 
-            // maskedTextBox5
-            // 
-            this.maskedTextBox5.Location = new System.Drawing.Point(122, 202);
-            this.maskedTextBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox5.Name = "maskedTextBox5";
-            this.maskedTextBox5.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox5.TabIndex = 47;
+            // zip_box
+            // 
+            this.zip_box.Location = new System.Drawing.Point(158, 256);
+            this.zip_box.Margin = new System.Windows.Forms.Padding(4);
+            this.zip_box.Name = "zip_box";
+            this.zip_box.Size = new System.Drawing.Size(128, 26);
+            this.zip_box.TabIndex = 47;
             // 
-            // maskedTextBox6
-            // 
-            this.maskedTextBox6.Location = new System.Drawing.Point(122, 171);
-            this.maskedTextBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox6.Name = "maskedTextBox6";
-            this.maskedTextBox6.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox6.TabIndex = 48;
+            // eng_name_box
+            // 
+            this.eng_name_box.Location = new System.Drawing.Point(158, 177);
+            this.eng_name_box.Margin = new System.Windows.Forms.Padding(4);
+            this.eng_name_box.Name = "eng_name_box";
+            this.eng_name_box.Size = new System.Drawing.Size(128, 26);
+            this.eng_name_box.TabIndex = 45;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(122, 139);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 26);
-            this.textBox2.TabIndex = 45;
+            // email1_box
+            // 
+            this.email1_box.Location = new System.Drawing.Point(158, 443);
+            this.email1_box.Margin = new System.Windows.Forms.Padding(4);
+            this.email1_box.Name = "email1_box";
+            this.email1_box.Size = new System.Drawing.Size(128, 26);
+            this.email1_box.TabIndex = 50;
             // 
-            // maskedTextBox7
-            // 
-            this.maskedTextBox7.Location = new System.Drawing.Point(122, 487);
-            this.maskedTextBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox7.Name = "maskedTextBox7";
-            this.maskedTextBox7.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox7.TabIndex = 54;
+            // phone_box
+            // 
+            this.phone_box.Location = new System.Drawing.Point(158, 367);
+            this.phone_box.Margin = new System.Windows.Forms.Padding(4);
+            this.phone_box.Name = "phone_box";
+            this.phone_box.Size = new System.Drawing.Size(128, 26);
+            this.phone_box.TabIndex = 52;
             // 
-            // maskedTextBox8
-            // 
-            this.maskedTextBox8.Location = new System.Drawing.Point(122, 455);
-            this.maskedTextBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox8.Name = "maskedTextBox8";
-            this.maskedTextBox8.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox8.TabIndex = 55;
-            // 
-            // maskedTextBox9
-            // 
-            this.maskedTextBox9.Location = new System.Drawing.Point(122, 424);
-            this.maskedTextBox9.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox9.Name = "maskedTextBox9";
-            this.maskedTextBox9.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox9.TabIndex = 56;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(122, 392);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(128, 26);
-            this.textBox3.TabIndex = 53;
-            // 
-            // maskedTextBox10
-            // 
-            this.maskedTextBox10.Location = new System.Drawing.Point(122, 360);
-            this.maskedTextBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox10.Name = "maskedTextBox10";
-            this.maskedTextBox10.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox10.TabIndex = 50;
-            // 
-            // maskedTextBox11
-            // 
-            this.maskedTextBox11.Location = new System.Drawing.Point(122, 331);
-            this.maskedTextBox11.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox11.Name = "maskedTextBox11";
-            this.maskedTextBox11.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox11.TabIndex = 51;
-            // 
-            // maskedTextBox12
-            // 
-            this.maskedTextBox12.Location = new System.Drawing.Point(122, 299);
-            this.maskedTextBox12.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox12.Name = "maskedTextBox12";
-            this.maskedTextBox12.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox12.TabIndex = 52;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(122, 267);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(128, 26);
-            this.textBox4.TabIndex = 49;
-            // 
-            // maskedTextBox13
-            // 
-            this.maskedTextBox13.Location = new System.Drawing.Point(412, 490);
-            this.maskedTextBox13.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox13.Name = "maskedTextBox13";
-            this.maskedTextBox13.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox13.TabIndex = 70;
-            // 
-            // maskedTextBox14
-            // 
-            this.maskedTextBox14.Location = new System.Drawing.Point(412, 458);
-            this.maskedTextBox14.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox14.Name = "maskedTextBox14";
-            this.maskedTextBox14.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox14.TabIndex = 71;
-            // 
-            // maskedTextBox15
-            // 
-            this.maskedTextBox15.Location = new System.Drawing.Point(412, 427);
-            this.maskedTextBox15.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox15.Name = "maskedTextBox15";
-            this.maskedTextBox15.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox15.TabIndex = 72;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(412, 395);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(128, 26);
-            this.textBox5.TabIndex = 69;
-            // 
-            // maskedTextBox16
-            // 
-            this.maskedTextBox16.Location = new System.Drawing.Point(412, 363);
-            this.maskedTextBox16.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox16.Name = "maskedTextBox16";
-            this.maskedTextBox16.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox16.TabIndex = 66;
-            // 
-            // maskedTextBox17
-            // 
-            this.maskedTextBox17.Location = new System.Drawing.Point(412, 334);
-            this.maskedTextBox17.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox17.Name = "maskedTextBox17";
-            this.maskedTextBox17.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox17.TabIndex = 67;
-            // 
-            // maskedTextBox18
-            // 
-            this.maskedTextBox18.Location = new System.Drawing.Point(412, 302);
-            this.maskedTextBox18.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox18.Name = "maskedTextBox18";
-            this.maskedTextBox18.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox18.TabIndex = 68;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(412, 270);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(128, 26);
-            this.textBox6.TabIndex = 65;
-            // 
-            // maskedTextBox19
-            // 
-            this.maskedTextBox19.Location = new System.Drawing.Point(412, 237);
-            this.maskedTextBox19.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox19.Name = "maskedTextBox19";
-            this.maskedTextBox19.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox19.TabIndex = 62;
-            // 
-            // maskedTextBox20
-            // 
-            this.maskedTextBox20.Location = new System.Drawing.Point(412, 205);
-            this.maskedTextBox20.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox20.Name = "maskedTextBox20";
-            this.maskedTextBox20.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox20.TabIndex = 63;
-            // 
-            // maskedTextBox21
-            // 
-            this.maskedTextBox21.Location = new System.Drawing.Point(412, 174);
-            this.maskedTextBox21.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox21.Name = "maskedTextBox21";
-            this.maskedTextBox21.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox21.TabIndex = 64;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(412, 142);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(128, 26);
-            this.textBox7.TabIndex = 61;
-            // 
-            // maskedTextBox22
-            // 
-            this.maskedTextBox22.Location = new System.Drawing.Point(412, 110);
-            this.maskedTextBox22.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox22.Name = "maskedTextBox22";
-            this.maskedTextBox22.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox22.TabIndex = 58;
-            // 
-            // maskedTextBox23
-            // 
-            this.maskedTextBox23.Location = new System.Drawing.Point(412, 81);
-            this.maskedTextBox23.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox23.Name = "maskedTextBox23";
-            this.maskedTextBox23.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox23.TabIndex = 59;
-            // 
-            // maskedTextBox24
-            // 
-            this.maskedTextBox24.Location = new System.Drawing.Point(412, 49);
-            this.maskedTextBox24.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox24.Name = "maskedTextBox24";
-            this.maskedTextBox24.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox24.TabIndex = 60;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(412, 17);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(128, 26);
-            this.textBox8.TabIndex = 57;
-            // 
-            // maskedTextBox25
-            // 
-            this.maskedTextBox25.Location = new System.Drawing.Point(711, 241);
-            this.maskedTextBox25.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox25.Name = "maskedTextBox25";
-            this.maskedTextBox25.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox25.TabIndex = 78;
-            // 
-            // maskedTextBox26
-            // 
-            this.maskedTextBox26.Location = new System.Drawing.Point(711, 209);
-            this.maskedTextBox26.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox26.Name = "maskedTextBox26";
-            this.maskedTextBox26.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox26.TabIndex = 79;
-            // 
-            // maskedTextBox27
-            // 
-            this.maskedTextBox27.Location = new System.Drawing.Point(711, 178);
-            this.maskedTextBox27.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox27.Name = "maskedTextBox27";
-            this.maskedTextBox27.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox27.TabIndex = 80;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(711, 146);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(128, 26);
-            this.textBox10.TabIndex = 77;
-            // 
-            // maskedTextBox28
-            // 
-            this.maskedTextBox28.Location = new System.Drawing.Point(711, 114);
-            this.maskedTextBox28.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox28.Name = "maskedTextBox28";
-            this.maskedTextBox28.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox28.TabIndex = 74;
-            // 
-            // maskedTextBox29
-            // 
-            this.maskedTextBox29.Location = new System.Drawing.Point(711, 85);
-            this.maskedTextBox29.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox29.Name = "maskedTextBox29";
-            this.maskedTextBox29.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox29.TabIndex = 75;
-            // 
-            // maskedTextBox30
-            // 
-            this.maskedTextBox30.Location = new System.Drawing.Point(711, 53);
-            this.maskedTextBox30.Margin = new System.Windows.Forms.Padding(4);
-            this.maskedTextBox30.Name = "maskedTextBox30";
-            this.maskedTextBox30.Size = new System.Drawing.Size(128, 26);
-            this.maskedTextBox30.TabIndex = 76;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(711, 21);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(128, 26);
-            this.textBox11.TabIndex = 73;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(314, 565);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 81;
-            this.button1.Text = "확인";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(395, 565);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 82;
-            this.button2.Text = "취소";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(476, 565);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 83;
-            this.button3.Text = "적용";
-            this.button3.UseVisualStyleBackColor = true;
+            // residence_box
+            // 
+            this.residence_box.Location = new System.Drawing.Point(158, 331);
+            this.residence_box.Margin = new System.Windows.Forms.Padding(4);
+            this.residence_box.Name = "residence_box";
+            this.residence_box.Size = new System.Drawing.Size(300, 26);
+            this.residence_box.TabIndex = 49;
+            // 
+            // identity_box
+            // 
+            this.identity_box.Location = new System.Drawing.Point(158, 294);
+            this.identity_box.Margin = new System.Windows.Forms.Padding(4);
+            this.identity_box.Name = "identity_box";
+            this.identity_box.Size = new System.Drawing.Size(128, 26);
+            this.identity_box.TabIndex = 70;
+            // 
+            // rank_box
+            // 
+            this.rank_box.Location = new System.Drawing.Point(158, 18);
+            this.rank_box.Margin = new System.Windows.Forms.Padding(4);
+            this.rank_box.Name = "rank_box";
+            this.rank_box.Size = new System.Drawing.Size(128, 26);
+            this.rank_box.TabIndex = 71;
+            // 
+            // newbie_month_box
+            // 
+            this.newbie_month_box.Location = new System.Drawing.Point(158, 440);
+            this.newbie_month_box.Margin = new System.Windows.Forms.Padding(4);
+            this.newbie_month_box.Name = "newbie_month_box";
+            this.newbie_month_box.Size = new System.Drawing.Size(128, 26);
+            this.newbie_month_box.TabIndex = 65;
+            // 
+            // contract_box
+            // 
+            this.contract_box.Location = new System.Drawing.Point(158, 331);
+            this.contract_box.Margin = new System.Windows.Forms.Padding(4);
+            this.contract_box.Name = "contract_box";
+            this.contract_box.Size = new System.Drawing.Size(128, 26);
+            this.contract_box.TabIndex = 63;
+            // 
+            // bank_number_box2
+            // 
+            this.bank_number_box2.Location = new System.Drawing.Point(225, 225);
+            this.bank_number_box2.Margin = new System.Windows.Forms.Padding(4);
+            this.bank_number_box2.Name = "bank_number_box2";
+            this.bank_number_box2.Size = new System.Drawing.Size(232, 26);
+            this.bank_number_box2.TabIndex = 64;
+            // 
+            // bank_master_box2
+            // 
+            this.bank_master_box2.Location = new System.Drawing.Point(225, 187);
+            this.bank_master_box2.Margin = new System.Windows.Forms.Padding(4);
+            this.bank_master_box2.Name = "bank_master_box2";
+            this.bank_master_box2.Size = new System.Drawing.Size(100, 26);
+            this.bank_master_box2.TabIndex = 61;
+            // 
+            // bank_name_box2
+            // 
+            this.bank_name_box2.Location = new System.Drawing.Point(225, 148);
+            this.bank_name_box2.Margin = new System.Windows.Forms.Padding(4);
+            this.bank_name_box2.Name = "bank_name_box2";
+            this.bank_name_box2.Size = new System.Drawing.Size(100, 26);
+            this.bank_name_box2.TabIndex = 58;
+            // 
+            // bank_number_box
+            // 
+            this.bank_number_box.Location = new System.Drawing.Point(225, 107);
+            this.bank_number_box.Margin = new System.Windows.Forms.Padding(4);
+            this.bank_number_box.Name = "bank_number_box";
+            this.bank_number_box.Size = new System.Drawing.Size(232, 26);
+            this.bank_number_box.TabIndex = 59;
+            // 
+            // bank_master_box
+            // 
+            this.bank_master_box.Location = new System.Drawing.Point(225, 72);
+            this.bank_master_box.Margin = new System.Windows.Forms.Padding(4);
+            this.bank_master_box.Name = "bank_master_box";
+            this.bank_master_box.Size = new System.Drawing.Size(100, 26);
+            this.bank_master_box.TabIndex = 60;
+            // 
+            // bank_name_box
+            // 
+            this.bank_name_box.Location = new System.Drawing.Point(225, 38);
+            this.bank_name_box.Margin = new System.Windows.Forms.Padding(4);
+            this.bank_name_box.Name = "bank_name_box";
+            this.bank_name_box.Size = new System.Drawing.Size(100, 26);
+            this.bank_name_box.TabIndex = 57;
+            // 
+            // department_box
+            // 
+            this.department_box.Location = new System.Drawing.Point(158, 77);
+            this.department_box.Margin = new System.Windows.Forms.Padding(4);
+            this.department_box.Name = "department_box";
+            this.department_box.Size = new System.Drawing.Size(128, 26);
+            this.department_box.TabIndex = 73;
+            // 
+            // ok_button
+            // 
+            this.ok_button.Location = new System.Drawing.Point(33, 37);
+            this.ok_button.Name = "ok_button";
+            this.ok_button.Size = new System.Drawing.Size(109, 75);
+            this.ok_button.TabIndex = 81;
+            this.ok_button.Text = "확인";
+            this.ok_button.UseVisualStyleBackColor = true;
+            this.ok_button.Click += new System.EventHandler(this.ok_button_Click);
+            // 
+            // cancel_button
+            // 
+            this.cancel_button.Location = new System.Drawing.Point(177, 37);
+            this.cancel_button.Name = "cancel_button";
+            this.cancel_button.Size = new System.Drawing.Size(109, 75);
+            this.cancel_button.TabIndex = 82;
+            this.cancel_button.Text = "취소";
+            this.cancel_button.UseVisualStyleBackColor = true;
+            this.cancel_button.Click += new System.EventHandler(this.cancel_button_Click);
+            // 
+            // apply_button
+            // 
+            this.apply_button.Location = new System.Drawing.Point(313, 37);
+            this.apply_button.Name = "apply_button";
+            this.apply_button.Size = new System.Drawing.Size(109, 75);
+            this.apply_button.TabIndex = 83;
+            this.apply_button.Text = "적용";
+            this.apply_button.UseVisualStyleBackColor = true;
+            this.apply_button.Click += new System.EventHandler(this.apply_box_Click);
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("굴림", 12F);
+            this.label46.Location = new System.Drawing.Point(294, 446);
+            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(21, 16);
+            this.label46.TabIndex = 21;
+            this.label46.Text = "@";
+            // 
+            // email2_box
+            // 
+            this.email2_box.Location = new System.Drawing.Point(330, 443);
+            this.email2_box.Margin = new System.Windows.Forms.Padding(4);
+            this.email2_box.Name = "email2_box";
+            this.email2_box.Size = new System.Drawing.Size(128, 26);
+            this.email2_box.TabIndex = 44;
+            // 
+            // newbie_check_box
+            // 
+            this.newbie_check_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.newbie_check_box.FormattingEnabled = true;
+            this.newbie_check_box.Items.AddRange(new object[] {
+            "수습",
+            "인턴",
+            "없음"});
+            this.newbie_check_box.Location = new System.Drawing.Point(158, 368);
+            this.newbie_check_box.Name = "newbie_check_box";
+            this.newbie_check_box.Size = new System.Drawing.Size(128, 24);
+            this.newbie_check_box.TabIndex = 86;
+            // 
+            // mil_catagory_box
+            // 
+            this.mil_catagory_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mil_catagory_box.FormattingEnabled = true;
+            this.mil_catagory_box.Items.AddRange(new object[] {
+            "육군",
+            "해병",
+            "공군",
+            "해병대"});
+            this.mil_catagory_box.Location = new System.Drawing.Point(158, 68);
+            this.mil_catagory_box.Name = "mil_catagory_box";
+            this.mil_catagory_box.Size = new System.Drawing.Size(121, 24);
+            this.mil_catagory_box.TabIndex = 86;
+            // 
+            // slave_start
+            // 
+            this.slave_start.CustomFormat = "yyyyMMdd";
+            this.slave_start.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.slave_start.Location = new System.Drawing.Point(158, 478);
+            this.slave_start.Name = "slave_start";
+            this.slave_start.Size = new System.Drawing.Size(128, 26);
+            this.slave_start.TabIndex = 87;
+            // 
+            // slave_end
+            // 
+            this.slave_end.CustomFormat = "yyyyMMdd";
+            this.slave_end.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.slave_end.Location = new System.Drawing.Point(158, 514);
+            this.slave_end.Name = "slave_end";
+            this.slave_end.Size = new System.Drawing.Size(128, 26);
+            this.slave_end.TabIndex = 87;
+            // 
+            // join_box
+            // 
+            this.join_box.CustomFormat = "yyyyMMdd";
+            this.join_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.join_box.Location = new System.Drawing.Point(158, 223);
+            this.join_box.Name = "join_box";
+            this.join_box.Size = new System.Drawing.Size(128, 26);
+            this.join_box.TabIndex = 87;
+            // 
+            // goodbye_box
+            // 
+            this.goodbye_box.CustomFormat = "yyyyMMdd";
+            this.goodbye_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.goodbye_box.Location = new System.Drawing.Point(158, 259);
+            this.goodbye_box.Name = "goodbye_box";
+            this.goodbye_box.Size = new System.Drawing.Size(128, 26);
+            this.goodbye_box.TabIndex = 87;
+            // 
+            // now_newbie_box
+            // 
+            this.now_newbie_box.CustomFormat = "yyyyMMdd";
+            this.now_newbie_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.now_newbie_box.Location = new System.Drawing.Point(158, 402);
+            this.now_newbie_box.Name = "now_newbie_box";
+            this.now_newbie_box.Size = new System.Drawing.Size(128, 26);
+            this.now_newbie_box.TabIndex = 87;
+            // 
+            // now_department_box
+            // 
+            this.now_department_box.CustomFormat = "yyyyMMdd";
+            this.now_department_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.now_department_box.Location = new System.Drawing.Point(158, 184);
+            this.now_department_box.Name = "now_department_box";
+            this.now_department_box.Size = new System.Drawing.Size(128, 26);
+            this.now_department_box.TabIndex = 87;
+            // 
+            // now_spot_box
+            // 
+            this.now_spot_box.CustomFormat = "yyyyMMdd";
+            this.now_spot_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.now_spot_box.Location = new System.Drawing.Point(158, 148);
+            this.now_spot_box.Name = "now_spot_box";
+            this.now_spot_box.Size = new System.Drawing.Size(128, 26);
+            this.now_spot_box.TabIndex = 87;
+            // 
+            // now_rank_box
+            // 
+            this.now_rank_box.CustomFormat = "yyyyMMdd";
+            this.now_rank_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.now_rank_box.Location = new System.Drawing.Point(158, 110);
+            this.now_rank_box.Name = "now_rank_box";
+            this.now_rank_box.Size = new System.Drawing.Size(128, 26);
+            this.now_rank_box.TabIndex = 87;
+            // 
+            // sexxbox
+            // 
+            this.sexxbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.sexxbox.FormattingEnabled = true;
+            this.sexxbox.Items.AddRange(new object[] {
+            "남성",
+            "여성"});
+            this.sexxbox.Location = new System.Drawing.Point(158, 217);
+            this.sexxbox.Name = "sexxbox";
+            this.sexxbox.Size = new System.Drawing.Size(64, 24);
+            this.sexxbox.TabIndex = 86;
+            // 
+            // mil_rank_box
+            // 
+            this.mil_rank_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mil_rank_box.FormattingEnabled = true;
+            this.mil_rank_box.Items.AddRange(new object[] {
+            "이병",
+            "일병",
+            "상병",
+            "병장"});
+            this.mil_rank_box.Location = new System.Drawing.Point(158, 106);
+            this.mil_rank_box.Name = "mil_rank_box";
+            this.mil_rank_box.Size = new System.Drawing.Size(121, 24);
+            this.mil_rank_box.TabIndex = 86;
+            // 
+            // marry_box
+            // 
+            this.marry_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.marry_box.FormattingEnabled = true;
+            this.marry_box.Items.AddRange(new object[] {
+            "기혼",
+            "미혼"});
+            this.marry_box.Location = new System.Drawing.Point(158, 483);
+            this.marry_box.Name = "marry_box";
+            this.marry_box.Size = new System.Drawing.Size(64, 24);
+            this.marry_box.TabIndex = 86;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.marry_box);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label46);
+            this.groupBox1.Controls.Add(this.sexxbox);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.e_no_box);
+            this.groupBox1.Controls.Add(this.rrn_box);
+            this.groupBox1.Controls.Add(this.email2_box);
+            this.groupBox1.Controls.Add(this.kor_name_box);
+            this.groupBox1.Controls.Add(this.chn_name_box);
+            this.groupBox1.Controls.Add(this.eng_name_box);
+            this.groupBox1.Controls.Add(this.zip_box);
+            this.groupBox1.Controls.Add(this.address_box);
+            this.groupBox1.Controls.Add(this.residence_box);
+            this.groupBox1.Controls.Add(this.email1_box);
+            this.groupBox1.Controls.Add(this.home_box);
+            this.groupBox1.Controls.Add(this.phone_box);
+            this.groupBox1.Location = new System.Drawing.Point(27, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(475, 521);
+            this.groupBox1.TabIndex = 88;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "기본정보";
+            // 
+            // home_box
+            // 
+            this.home_box.Location = new System.Drawing.Point(158, 405);
+            this.home_box.Margin = new System.Windows.Forms.Padding(4);
+            this.home_box.Name = "home_box";
+            this.home_box.Size = new System.Drawing.Size(128, 26);
+            this.home_box.TabIndex = 52;
+            // 
+            // mil_ok_box
+            // 
+            this.mil_ok_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mil_ok_box.FormattingEnabled = true;
+            this.mil_ok_box.Items.AddRange(new object[] {
+            "군필",
+            "미필",
+            "면제"});
+            this.mil_ok_box.Location = new System.Drawing.Point(158, 31);
+            this.mil_ok_box.Name = "mil_ok_box";
+            this.mil_ok_box.Size = new System.Drawing.Size(121, 24);
+            this.mil_ok_box.TabIndex = 86;
+            // 
+            // mil_group
+            // 
+            this.mil_group.Controls.Add(this.label13);
+            this.mil_group.Controls.Add(this.label14);
+            this.mil_group.Controls.Add(this.label15);
+            this.mil_group.Controls.Add(this.mil_catagory_box);
+            this.mil_group.Controls.Add(this.mil_ok_box);
+            this.mil_group.Controls.Add(this.mil_rank_box);
+            this.mil_group.Location = new System.Drawing.Point(508, 286);
+            this.mil_group.Name = "mil_group";
+            this.mil_group.Size = new System.Drawing.Size(481, 145);
+            this.mil_group.TabIndex = 89;
+            this.mil_group.TabStop = false;
+            this.mil_group.Text = "군대";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.bank_number_box2);
+            this.groupBox3.Controls.Add(this.label17);
+            this.groupBox3.Controls.Add(this.label18);
+            this.groupBox3.Controls.Add(this.label20);
+            this.groupBox3.Controls.Add(this.label21);
+            this.groupBox3.Controls.Add(this.label22);
+            this.groupBox3.Controls.Add(this.label23);
+            this.groupBox3.Controls.Add(this.bank_name_box);
+            this.groupBox3.Controls.Add(this.bank_master_box);
+            this.groupBox3.Controls.Add(this.bank_number_box);
+            this.groupBox3.Controls.Add(this.bank_name_box2);
+            this.groupBox3.Controls.Add(this.bank_master_box2);
+            this.groupBox3.Location = new System.Drawing.Point(508, 12);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(481, 272);
+            this.groupBox3.TabIndex = 90;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "계좌";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.goodbye_box);
+            this.groupBox4.Controls.Add(this.label29);
+            this.groupBox4.Controls.Add(this.label30);
+            this.groupBox4.Controls.Add(this.label35);
+            this.groupBox4.Controls.Add(this.badtime_box);
+            this.groupBox4.Controls.Add(this.slave_end);
+            this.groupBox4.Controls.Add(this.label19);
+            this.groupBox4.Controls.Add(this.label36);
+            this.groupBox4.Controls.Add(this.label24);
+            this.groupBox4.Controls.Add(this.goodtime_box);
+            this.groupBox4.Controls.Add(this.now_rank_box);
+            this.groupBox4.Controls.Add(this.slave_start);
+            this.groupBox4.Controls.Add(this.label38);
+            this.groupBox4.Controls.Add(this.state_box);
+            this.groupBox4.Controls.Add(this.newbie_check_box);
+            this.groupBox4.Controls.Add(this.now_spot_box);
+            this.groupBox4.Controls.Add(this.label39);
+            this.groupBox4.Controls.Add(this.contract_box);
+            this.groupBox4.Controls.Add(this.label40);
+            this.groupBox4.Controls.Add(this.now_department_box);
+            this.groupBox4.Controls.Add(this.label41);
+            this.groupBox4.Controls.Add(this.now_newbie_box);
+            this.groupBox4.Controls.Add(this.identity_box);
+            this.groupBox4.Controls.Add(this.rank_box);
+            this.groupBox4.Controls.Add(this.join_box);
+            this.groupBox4.Controls.Add(this.dut_box);
+            this.groupBox4.Controls.Add(this.department_box);
+            this.groupBox4.Controls.Add(this.label34);
+            this.groupBox4.Controls.Add(this.newbie_month_box);
+            this.groupBox4.Controls.Add(this.label25);
+            this.groupBox4.Controls.Add(this.label26);
+            this.groupBox4.Controls.Add(this.label27);
+            this.groupBox4.Controls.Add(this.label33);
+            this.groupBox4.Controls.Add(this.label28);
+            this.groupBox4.Controls.Add(this.label32);
+            this.groupBox4.Controls.Add(this.label31);
+            this.groupBox4.Location = new System.Drawing.Point(995, 12);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(301, 663);
+            this.groupBox4.TabIndex = 90;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "계약";
+            // 
+            // badtime_box
+            // 
+            this.badtime_box.CustomFormat = "yyyy-MM-dd";
+            this.badtime_box.Enabled = false;
+            this.badtime_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.badtime_box.Location = new System.Drawing.Point(158, 586);
+            this.badtime_box.Name = "badtime_box";
+            this.badtime_box.Size = new System.Drawing.Size(128, 26);
+            this.badtime_box.TabIndex = 87;
+            // 
+            // goodtime_box
+            // 
+            this.goodtime_box.CustomFormat = "yyyy-MM-dd";
+            this.goodtime_box.Enabled = false;
+            this.goodtime_box.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.goodtime_box.Location = new System.Drawing.Point(158, 550);
+            this.goodtime_box.Name = "goodtime_box";
+            this.goodtime_box.Size = new System.Drawing.Size(128, 26);
+            this.goodtime_box.TabIndex = 87;
+            // 
+            // state_box
+            // 
+            this.state_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.state_box.FormattingEnabled = true;
+            this.state_box.Items.AddRange(new object[] {
+            "재직",
+            "퇴직"});
+            this.state_box.Location = new System.Drawing.Point(158, 622);
+            this.state_box.Name = "state_box";
+            this.state_box.Size = new System.Drawing.Size(128, 24);
+            this.state_box.TabIndex = 86;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.note_box);
+            this.groupBox5.Location = new System.Drawing.Point(508, 437);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(481, 238);
+            this.groupBox5.TabIndex = 91;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "참고사항";
+            // 
+            // note_box
+            // 
+            this.note_box.Location = new System.Drawing.Point(26, 32);
+            this.note_box.Multiline = false;
+            this.note_box.Name = "note_box";
+            this.note_box.Size = new System.Drawing.Size(431, 189);
+            this.note_box.TabIndex = 0;
+            this.note_box.Text = "";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.apply_button);
+            this.groupBox6.Controls.Add(this.ok_button);
+            this.groupBox6.Controls.Add(this.cancel_button);
+            this.groupBox6.Location = new System.Drawing.Point(27, 539);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(475, 136);
+            this.groupBox6.TabIndex = 92;
+            this.groupBox6.TabStop = false;
+            // 
+            // dut_box
+            // 
+            this.dut_box.Location = new System.Drawing.Point(158, 48);
+            this.dut_box.Margin = new System.Windows.Forms.Padding(4);
+            this.dut_box.Name = "dut_box";
+            this.dut_box.Size = new System.Drawing.Size(128, 26);
+            this.dut_box.TabIndex = 73;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("굴림", 12F);
+            this.label19.Location = new System.Drawing.Point(13, 51);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(84, 16);
+            this.label19.TabIndex = 28;
+            this.label19.Text = "직위(현재)";
             // 
             // insa_basic_insert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 617);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.maskedTextBox25);
-            this.Controls.Add(this.maskedTextBox26);
-            this.Controls.Add(this.maskedTextBox27);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.maskedTextBox28);
-            this.Controls.Add(this.maskedTextBox29);
-            this.Controls.Add(this.maskedTextBox30);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.maskedTextBox13);
-            this.Controls.Add(this.maskedTextBox14);
-            this.Controls.Add(this.maskedTextBox15);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.maskedTextBox16);
-            this.Controls.Add(this.maskedTextBox17);
-            this.Controls.Add(this.maskedTextBox18);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.maskedTextBox19);
-            this.Controls.Add(this.maskedTextBox20);
-            this.Controls.Add(this.maskedTextBox21);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.maskedTextBox22);
-            this.Controls.Add(this.maskedTextBox23);
-            this.Controls.Add(this.maskedTextBox24);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.maskedTextBox7);
-            this.Controls.Add(this.maskedTextBox8);
-            this.Controls.Add(this.maskedTextBox9);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.maskedTextBox10);
-            this.Controls.Add(this.maskedTextBox11);
-            this.Controls.Add(this.maskedTextBox12);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.maskedTextBox4);
-            this.Controls.Add(this.maskedTextBox5);
-            this.Controls.Add(this.maskedTextBox6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label41);
-            this.Controls.Add(this.label40);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1319, 688);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.mil_group);
+            this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("굴림", 12F);
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "insa_basic_insert";
-            this.Text = "insa_basic_insert";
+            this.Text = "인사기본사항 - 정보입력";
+            this.Load += new System.EventHandler(this.insa_basic_insert_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.mil_group.ResumeLayout(false);
+            this.mil_group.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1003,7 +1168,6 @@
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
@@ -1039,48 +1203,58 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox6;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox7;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox8;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox9;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox10;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox11;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox12;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox13;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox14;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox15;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox16;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox17;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox18;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox19;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox20;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox21;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox22;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox23;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox24;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox25;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox26;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox27;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox28;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox29;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox30;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox e_no_box;
+        private System.Windows.Forms.MaskedTextBox rrn_box;
+        private System.Windows.Forms.MaskedTextBox kor_name_box;
+        private System.Windows.Forms.MaskedTextBox chn_name_box;
+        private System.Windows.Forms.MaskedTextBox address_box;
+        private System.Windows.Forms.MaskedTextBox zip_box;
+        private System.Windows.Forms.TextBox eng_name_box;
+        private System.Windows.Forms.MaskedTextBox email1_box;
+        private System.Windows.Forms.MaskedTextBox phone_box;
+        private System.Windows.Forms.TextBox residence_box;
+        private System.Windows.Forms.MaskedTextBox identity_box;
+        private System.Windows.Forms.MaskedTextBox rank_box;
+        private System.Windows.Forms.TextBox newbie_month_box;
+        private System.Windows.Forms.MaskedTextBox contract_box;
+        private System.Windows.Forms.MaskedTextBox bank_number_box2;
+        private System.Windows.Forms.TextBox bank_master_box2;
+        private System.Windows.Forms.MaskedTextBox bank_name_box2;
+        private System.Windows.Forms.MaskedTextBox bank_number_box;
+        private System.Windows.Forms.MaskedTextBox bank_master_box;
+        private System.Windows.Forms.TextBox bank_name_box;
+        private System.Windows.Forms.TextBox department_box;
+        private System.Windows.Forms.Button ok_button;
+        private System.Windows.Forms.Button cancel_button;
+        private System.Windows.Forms.Button apply_button;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.MaskedTextBox email2_box;
+        private System.Windows.Forms.ComboBox newbie_check_box;
+        private System.Windows.Forms.ComboBox mil_catagory_box;
+        private System.Windows.Forms.DateTimePicker slave_start;
+        private System.Windows.Forms.DateTimePicker slave_end;
+        private System.Windows.Forms.DateTimePicker join_box;
+        private System.Windows.Forms.DateTimePicker goodbye_box;
+        private System.Windows.Forms.DateTimePicker now_newbie_box;
+        private System.Windows.Forms.DateTimePicker now_department_box;
+        private System.Windows.Forms.DateTimePicker now_spot_box;
+        private System.Windows.Forms.DateTimePicker now_rank_box;
+        private System.Windows.Forms.ComboBox sexxbox;
+        private System.Windows.Forms.ComboBox mil_rank_box;
+        private System.Windows.Forms.ComboBox marry_box;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.MaskedTextBox home_box;
+        private System.Windows.Forms.ComboBox mil_ok_box;
+        private System.Windows.Forms.GroupBox mil_group;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.DateTimePicker badtime_box;
+        private System.Windows.Forms.DateTimePicker goodtime_box;
+        private System.Windows.Forms.ComboBox state_box;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RichTextBox note_box;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox dut_box;
     }
 }

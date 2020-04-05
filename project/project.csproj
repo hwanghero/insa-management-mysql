@@ -164,6 +164,9 @@
     <Compile Include="server\password_changecs.cs" />
     <Compile Include="user\form_child_setting.cs" />
     <Compile Include="user\Hash.cs" />
+    <Compile Include="user\insa_record_official\insa_basic_insert.cs" />
+    <Compile Include="user\insa_record_official\insa_basic_list.cs" />
+    <Compile Include="user\insa_record_official\insa_basic_main.cs" />
     <Compile Include="user\Registry.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

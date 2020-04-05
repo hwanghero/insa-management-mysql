@@ -6,6 +6,9 @@ namespace project
 {
     class database
     {
+
+        // 메인 데이터베이스 여기에서 다 상속받음
+
         /*
          * 여기에 포함된 DB
          * 1. 날짜 수정, 업데이트
