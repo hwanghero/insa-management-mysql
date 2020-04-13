@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace project
 {
-    public partial class Form1 : Form
+    public partial class login : Form
     {
         // 데이터베이스 연결 객체
         database db = new database();
@@ -32,7 +32,7 @@ namespace project
             return staticid;
         }
 
-        public Form1()
+        public login()
         {
             InitializeComponent();
         }

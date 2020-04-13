@@ -27,7 +27,7 @@ namespace project.form_user
 
             if (c_pw.Equals(c_pw_check))
             {
-                if (c_pw_class.user_pw_change(Form1.getid(), now_pw, c_pw) == 1)
+                if (c_pw_class.user_pw_change(login.getid(), now_pw, c_pw) == 1)
                 {
                     MessageBox.Show("비밀번호 변경완료");
                 }

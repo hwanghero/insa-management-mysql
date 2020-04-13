@@ -11,11 +11,7 @@ namespace project
         Form[] form_name = new Form[10];
         int form_count = 0;
 
-        // 인사기초정보
-        insainfo insainfo = new insainfo(); // 인사코드 관리
-        form_user.insa_base.insa_department insa_department = new form_user.insa_base.insa_department(); // 부서코드 관리
-        form_user.insa_base.insa_rank insa_rank = new form_user.insa_base.insa_rank(); // 직급코드 관리
-        form_user.insa_base.insa_position insa_position = new form_user.insa_base.insa_position(); // 직책코드 관리
+        user.form_user_setting form_s = new user.form_user_setting();
 
         // 인사기록관리
         insacontrol insacontrol = new insacontrol(); // 인사기본사항
@@ -33,24 +29,6 @@ namespace project
             for (int i = 0; i < form_name.Length - 1; i++)
                 form_hide(form_name[i]);
 
-            // 인사기초정보
-            if (e.Node.Text.Equals("인사코드 관리"))
-            {
-                insainfo.Show();
-            }
-            if (e.Node.Text.Equals("부서코드 관리"))
-            {
-                insa_department.Show();
-            }
-            if (e.Node.Text.Equals("직급코드 관리"))
-            {
-                insa_rank.Show();
-            }
-            if (e.Node.Text.Equals("직책코드 관리"))
-            {
-                insa_position.Show();
-            }
-
             // 인사기록관리
             if (e.Node.Text.Equals("인사기본사항"))
             {
@@ -65,18 +43,12 @@ namespace project
 
         private void main_Load(object sender, EventArgs e)
         {
-            // 인사기초정보
-            main_add(insainfo);
-            main_add(insa_department);
-            main_add(insa_rank);
-            main_add(insa_position);
+            form_s.setSize(panel1.Size);
 
             // 인사기록관리
             main_add(insacontrol);
-
             // 비번 변경
             main_add(password_chagne);
-
         }
 
         // 폼 추가
@@ -95,12 +67,6 @@ namespace project
         public void form_hide(Form hideform)
         {
             hideform.Hide();
-        }
-
-        // 패널 사이즈 값 보내주기
-        public Size panel_size()
-        {
-            return this.panel1.Size;
         }
     }
 }

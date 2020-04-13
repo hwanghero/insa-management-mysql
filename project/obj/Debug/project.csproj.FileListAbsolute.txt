@@ -63,8 +63,6 @@ C:\Users\owner\Desktop\github\insa-management\project\obj\Debug\project.csproj.C
 C:\Users\owner\Desktop\github\insa-management\project\obj\Debug\project.exe
 C:\Users\owner\Desktop\github\insa-management\project\obj\Debug\project.pdb
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.csprojAssemblyReference.cache
-C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.Form1.resources
-C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.insainfo.resources
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.insacontrol.resources
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.main.resources
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.Properties.Resources.resources
@@ -87,7 +85,4 @@ C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_admin.admin_main.resources
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_admin.admin_user_info.resources
 C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_admin.admin_user_add.resources
-C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_base.insa_department.resources
-C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_base.insa_position.resources
-C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_base.insa_rank.resources
-C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.form_user.insa_record_official.insa_basic.insa_basic_insert.resources
+C:\Users\Hero\Desktop\github\insa-management\project\obj\Debug\project.login.resources

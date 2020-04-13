@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace project.user.insa_record_official
 {
-    class insa_basic_insert : database
+    class insa_basic_update : database
     {
-        // 따로따로 인설트하는게 더 효율적인거같음.. 매우 비효율적인거같음
-        user.insa_record_official.insa_basic_main main = new user.insa_record_official.insa_basic_main();
-        public int thrm_bas_add(String empno, String resno, String name, String cname, String ename, String fix, String zip, String addr, String residence, String hdpno, String telno, String email, String mil_sta, String mil_mil, String mil_rnk, String mar,
+        public int thrm_bas_update(String empno, String resno, String name, String cname, String ename, String fix, String zip, String addr, String residence, String hdpno, String telno, String email, String mil_sta, String mil_mil, String mil_rnk, String mar,
             String acc_bank1, String acc_name1, String acc_no1, String acc_bank2, String acc_name2, String acc_no2, String cont, String intern, int intern_no, String emp_sdate, String emp_edate, String entdate,
             String resdate, String levdate, String reidate, String wsta, String sts, String pos, String dut, String dept, String rmk, String pos_dt, String dut_dt, String dept_dt, String intern_dt, String datasys1, String datasys2, String datasys3)
         {
@@ -20,9 +18,9 @@ namespace project.user.insa_record_official
             {
                 MySqlCommand comm = new MySqlCommand();
                 comm.Connection = connection;
-                comm.CommandText = "INSERT INTO thrm_bas values(@empno, @resno, @name, @cname, @ename, @fix, @zip, @addr, @residence, @hdpno, @telno, @email, @mil_sta, @mil_mil, @mil_rnk, @mar," + // 15
-                    "@acc_bank1, @acc_name1, @acc_no1, @acc_bank2, @acc_name2, @acc_no2, @cont, @intern, @intern_no, @emp_sdate, @emp_edate, @entdate," + // 12
-                    "@resdate, @levdate, @reidate, @wsta, @sts, @pos, @dut, @dept, @rmk, @pos_dt, @dut_dt, @dept_dt, @intern_dt, @datasys1, @datasys2, @datasys3);"; // 16
+                comm.CommandText = "UPDATE thrm_bas SET bas_resno=@resno, bas_name=@name, bas_cname=@cname, bas_ename=@ename, bas_fix=@fix, bas_zip=@zip, bas_addr=@addr, bas_residence=@residence, bas_hdpno=@hdpno, bas_telno=@telno, bas_email=@email, bas_mil_sta=@mil_sta, bas_mil_mil=@mil_mil, bas_mil_rnk=@mil_rnk, bas_mar=@mar," + // 15
+                    "bas_acc_bank1=@acc_bank1, bas_acc_name1=@acc_name1, bas_acc_no1=@acc_no1, bas_acc_bank2=@acc_bank2, bas_acc_name2=@acc_name2, bas_acc_no2=@acc_no2, bas_cont=@cont, bas_intern=@intern, bas_intern_no=@intern_no, bas_emp_sdate=@emp_sdate, bas_emp_edate=@emp_edate, bas_entdate=@entdate," + // 12
+                    "bas_resdate=@resdate, bas_levdate=@levdate, bas_reidate=@reidate, bas_wsta=@wsta, bas_sts=@sts, bas_pos=@pos, bas_dut=@dut, bas_dept=@dept, bas_rmk=@rmk, bas_pos_dt=@pos_dt, bas_dut_dt=@dut_dt, bas_dept_dt=@dept_dt, bas_intern_dt=@intern_dt, datasys1=@datasys1, datasys2=@datasys2, datasys3=@datasys3 where IFNULL(bas_empno, 0) = @empno"; // 16
                 comm.Parameters.AddWithValue("@empno", empno);
                 comm.Parameters.AddWithValue("@resno", resno);
                 comm.Parameters.AddWithValue("@name", name);
@@ -78,6 +76,35 @@ namespace project.user.insa_record_official
                 Console.WriteLine(ex);
             }
             return check;
+        }
+
+        public List<string> insa_basic_getdata(String bas_empno)
+        {
+            List<string> user_data = new List<string>();
+            string selectquery = "select * from thrm_bas where bas_empno='"+bas_empno+"'";
+            try
+            {
+                using (MySqlCommand cmd = new MySqlCommand(selectquery, connection))
+                {
+                    cmd.Prepare();
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            for(int i=0; i<41; i++)
+                            {
+                                user_data.Add(reader.GetString(i));
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+            return user_data;
         }
     }
 }
