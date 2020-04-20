@@ -21,6 +21,7 @@ namespace project
         user.Hash hash2 = new user.Hash();
 
         static String staticid;
+        static int staticlevel;
 
         public static void setid(String id)
         {
@@ -30,6 +31,14 @@ namespace project
         public static String getid()
         {
             return staticid;
+        }
+        public static void set_user_level(int level)
+        {
+            staticlevel = level;
+        }
+        public static int get_user_level()
+        {
+            return staticlevel;
         }
 
         public login()
@@ -54,28 +63,16 @@ namespace project
                     if (miss < 5)
                     {
                         setid(id);
-
                         // 아이디 비밀번호가 맞는지?
-                        if (db.logincheck(id, pw) == 1 || db.logincheck(id, pw) == 2)
+                        if (db.logincheck(id, pw) != 0)
                         {
                             // 날짜 업데이트
                             db.day_update(id);
+                            // 유저 권한 전송
+                            set_user_level(db.logincheck(id, pw));
                             this.Hide();
-
-                            if (db.logincheck(id, pw) == 1 && admin_radio.Checked)
-                            {
-                                MessageBox.Show("권한이 없습니다\n사용자 관리 프로그램으로 실행됩니다");
-                            }
-                            if (db.logincheck(id, pw) == 2 && admin_radio.Checked)
-                            {
-                                form_admin.admin_main admin_main = new form_admin.admin_main();
-                                admin_main.ShowDialog();
-                            }
-                            else 
-                            {
-                                main main = new main();
-                                main.ShowDialog();
-                            }
+                            main main = new main();
+                            main.ShowDialog();
                             this.Close();
                         }
                         else
@@ -98,7 +95,6 @@ namespace project
             {
                 MessageBox.Show("없는 아이디입니다.");
             }
-            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -141,6 +137,30 @@ namespace project
         {
             if (checkBox1.Checked == true)
                 rg.Set_ID_Registry(idbox.Text);
+        }
+
+        private void login_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Console.WriteLine("login");
+            }
+            else
+            {
+                return;
+            }
+        }
+
+        private void pwbox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button1.PerformClick();
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }

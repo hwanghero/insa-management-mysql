@@ -28,139 +28,140 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("인사코드 관리");
-            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("부서코드 관리");
-            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("직급코드 관리");
-            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("직책코드 관리");
-            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("인사기초정보", new System.Windows.Forms.TreeNode[] {
-            treeNode91,
-            treeNode92,
-            treeNode93,
-            treeNode94});
-            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("인사기본사항");
-            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("가족사항");
-            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("학력사항");
-            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("상벌사항");
-            System.Windows.Forms.TreeNode treeNode100 = new System.Windows.Forms.TreeNode("경력사항");
-            System.Windows.Forms.TreeNode treeNode101 = new System.Windows.Forms.TreeNode("자격면허");
-            System.Windows.Forms.TreeNode treeNode102 = new System.Windows.Forms.TreeNode("외국어");
-            System.Windows.Forms.TreeNode treeNode103 = new System.Windows.Forms.TreeNode("인사기록 조회(통합)");
-            System.Windows.Forms.TreeNode treeNode104 = new System.Windows.Forms.TreeNode("인사기록관리", new System.Windows.Forms.TreeNode[] {
-            treeNode96,
-            treeNode97,
-            treeNode98,
-            treeNode99,
-            treeNode100,
-            treeNode101,
-            treeNode102,
-            treeNode103});
-            System.Windows.Forms.TreeNode treeNode105 = new System.Windows.Forms.TreeNode("인사발령대장 관리");
-            System.Windows.Forms.TreeNode treeNode106 = new System.Windows.Forms.TreeNode("인사발령 등록");
-            System.Windows.Forms.TreeNode treeNode107 = new System.Windows.Forms.TreeNode("인사발령 조회");
-            System.Windows.Forms.TreeNode treeNode108 = new System.Windows.Forms.TreeNode("인사변동 관리", new System.Windows.Forms.TreeNode[] {
-            treeNode105,
-            treeNode106,
-            treeNode107});
-            System.Windows.Forms.TreeNode treeNode109 = new System.Windows.Forms.TreeNode("재직증명서");
-            System.Windows.Forms.TreeNode treeNode110 = new System.Windows.Forms.TreeNode("경력증명서");
-            System.Windows.Forms.TreeNode treeNode111 = new System.Windows.Forms.TreeNode("영문증명서");
-            System.Windows.Forms.TreeNode treeNode112 = new System.Windows.Forms.TreeNode("제증명서 발급대장 조회");
-            System.Windows.Forms.TreeNode treeNode113 = new System.Windows.Forms.TreeNode("제증명서 발급", new System.Windows.Forms.TreeNode[] {
-            treeNode109,
-            treeNode110,
-            treeNode111,
-            treeNode112});
-            System.Windows.Forms.TreeNode treeNode114 = new System.Windows.Forms.TreeNode("부서별 인원현황");
-            System.Windows.Forms.TreeNode treeNode115 = new System.Windows.Forms.TreeNode("직급별 인원현황");
-            System.Windows.Forms.TreeNode treeNode116 = new System.Windows.Forms.TreeNode("입사인원 추이");
-            System.Windows.Forms.TreeNode treeNode117 = new System.Windows.Forms.TreeNode("퇴사인원 추이");
-            System.Windows.Forms.TreeNode treeNode118 = new System.Windows.Forms.TreeNode("현황 및 통계", new System.Windows.Forms.TreeNode[] {
-            treeNode114,
-            treeNode115,
-            treeNode116,
-            treeNode117});
-            System.Windows.Forms.TreeNode treeNode119 = new System.Windows.Forms.TreeNode("비밀번호 변경");
-            System.Windows.Forms.TreeNode treeNode120 = new System.Windows.Forms.TreeNode("내 정보 관리", new System.Windows.Forms.TreeNode[] {
-            treeNode119});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("인사코드 관리");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("부서코드 관리");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("직급코드 관리");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("직책코드 관리");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("인사기초정보", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4});
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("인사기본사항");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("가족사항");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("학력사항");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("상벌사항");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("경력사항");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("자격면허");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("외국어");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("인사기록 조회(통합)");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("인사기록관리", new System.Windows.Forms.TreeNode[] {
+            treeNode6,
+            treeNode7,
+            treeNode8,
+            treeNode9,
+            treeNode10,
+            treeNode11,
+            treeNode12,
+            treeNode13});
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("인사발령대장 관리");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("인사발령 등록");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("인사발령 조회");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("인사변동 관리", new System.Windows.Forms.TreeNode[] {
+            treeNode15,
+            treeNode16,
+            treeNode17});
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("재직증명서");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("경력증명서");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("영문증명서");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("제증명서 발급대장 조회");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("제증명서 발급", new System.Windows.Forms.TreeNode[] {
+            treeNode19,
+            treeNode20,
+            treeNode21,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("부서별 인원현황");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("직급별 인원현황");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("입사인원 추이");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("퇴사인원 추이");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("현황 및 통계", new System.Windows.Forms.TreeNode[] {
+            treeNode24,
+            treeNode25,
+            treeNode26,
+            treeNode27});
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("비밀번호 변경");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("내 정보 관리", new System.Windows.Forms.TreeNode[] {
+            treeNode29});
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.contorl_panel = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // treeView1
             // 
             this.treeView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.treeView1.Location = new System.Drawing.Point(-1, 1);
+            this.treeView1.Location = new System.Drawing.Point(-1, -1);
             this.treeView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.treeView1.Name = "treeView1";
-            treeNode91.Name = "노드2";
-            treeNode91.Text = "인사코드 관리";
-            treeNode92.Name = "노드5";
-            treeNode92.Text = "부서코드 관리";
-            treeNode93.Name = "노드6";
-            treeNode93.Text = "직급코드 관리";
-            treeNode94.Name = "노드7";
-            treeNode94.Text = "직책코드 관리";
-            treeNode95.Name = "insa_info";
-            treeNode95.Text = "인사기초정보";
-            treeNode96.Name = "노드8";
-            treeNode96.Text = "인사기본사항";
-            treeNode97.Name = "노드9";
-            treeNode97.Text = "가족사항";
-            treeNode98.Name = "노드10";
-            treeNode98.Text = "학력사항";
-            treeNode99.Name = "노드11";
-            treeNode99.Text = "상벌사항";
-            treeNode100.Name = "노드12";
-            treeNode100.Text = "경력사항";
-            treeNode101.Name = "노드13";
-            treeNode101.Text = "자격면허";
-            treeNode102.Name = "노드14";
-            treeNode102.Text = "외국어";
-            treeNode103.Name = "노드15";
-            treeNode103.Text = "인사기록 조회(통합)";
-            treeNode104.Name = "2";
-            treeNode104.Text = "인사기록관리";
-            treeNode105.Name = "노드16";
-            treeNode105.Text = "인사발령대장 관리";
-            treeNode106.Name = "노드17";
-            treeNode106.Text = "인사발령 등록";
-            treeNode107.Name = "노드18";
-            treeNode107.Text = "인사발령 조회";
-            treeNode108.Name = "노드2";
-            treeNode108.Text = "인사변동 관리";
-            treeNode109.Name = "노드19";
-            treeNode109.Text = "재직증명서";
-            treeNode110.Name = "노드20";
-            treeNode110.Text = "경력증명서";
-            treeNode111.Name = "노드21";
-            treeNode111.Text = "영문증명서";
-            treeNode112.Name = "노드22";
-            treeNode112.Text = "제증명서 발급대장 조회";
-            treeNode113.Name = "노드4";
-            treeNode113.Text = "제증명서 발급";
-            treeNode114.Name = "노드23";
-            treeNode114.Text = "부서별 인원현황";
-            treeNode115.Name = "노드24";
-            treeNode115.Text = "직급별 인원현황";
-            treeNode116.Name = "노드25";
-            treeNode116.Text = "입사인원 추이";
-            treeNode117.Name = "노드26";
-            treeNode117.Text = "퇴사인원 추이";
-            treeNode118.Name = "노드5";
-            treeNode118.Text = "현황 및 통계";
-            treeNode119.Name = "노드2";
-            treeNode119.Text = "비밀번호 변경";
-            treeNode120.Name = "노드0";
-            treeNode120.Text = "내 정보 관리";
+            treeNode1.Name = "노드2";
+            treeNode1.Text = "인사코드 관리";
+            treeNode2.Name = "노드5";
+            treeNode2.Text = "부서코드 관리";
+            treeNode3.Name = "노드6";
+            treeNode3.Text = "직급코드 관리";
+            treeNode4.Name = "노드7";
+            treeNode4.Text = "직책코드 관리";
+            treeNode5.Name = "insa_info";
+            treeNode5.Text = "인사기초정보";
+            treeNode6.Name = "노드8";
+            treeNode6.Text = "인사기본사항";
+            treeNode7.Name = "노드9";
+            treeNode7.Text = "가족사항";
+            treeNode8.Name = "노드10";
+            treeNode8.Text = "학력사항";
+            treeNode9.Name = "노드11";
+            treeNode9.Text = "상벌사항";
+            treeNode10.Name = "노드12";
+            treeNode10.Text = "경력사항";
+            treeNode11.Name = "노드13";
+            treeNode11.Text = "자격면허";
+            treeNode12.Name = "노드14";
+            treeNode12.Text = "외국어";
+            treeNode13.Name = "노드15";
+            treeNode13.Text = "인사기록 조회(통합)";
+            treeNode14.Name = "2";
+            treeNode14.Text = "인사기록관리";
+            treeNode15.Name = "노드16";
+            treeNode15.Text = "인사발령대장 관리";
+            treeNode16.Name = "노드17";
+            treeNode16.Text = "인사발령 등록";
+            treeNode17.Name = "노드18";
+            treeNode17.Text = "인사발령 조회";
+            treeNode18.Name = "노드2";
+            treeNode18.Text = "인사변동 관리";
+            treeNode19.Name = "노드19";
+            treeNode19.Text = "재직증명서";
+            treeNode20.Name = "노드20";
+            treeNode20.Text = "경력증명서";
+            treeNode21.Name = "노드21";
+            treeNode21.Text = "영문증명서";
+            treeNode22.Name = "노드22";
+            treeNode22.Text = "제증명서 발급대장 조회";
+            treeNode23.Name = "노드4";
+            treeNode23.Text = "제증명서 발급";
+            treeNode24.Name = "노드23";
+            treeNode24.Text = "부서별 인원현황";
+            treeNode25.Name = "노드24";
+            treeNode25.Text = "직급별 인원현황";
+            treeNode26.Name = "노드25";
+            treeNode26.Text = "입사인원 추이";
+            treeNode27.Name = "노드26";
+            treeNode27.Text = "퇴사인원 추이";
+            treeNode28.Name = "노드5";
+            treeNode28.Text = "현황 및 통계";
+            treeNode29.Name = "노드2";
+            treeNode29.Text = "비밀번호 변경";
+            treeNode30.Name = "노드0";
+            treeNode30.Text = "내 정보 관리";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode95,
-            treeNode104,
-            treeNode108,
-            treeNode113,
-            treeNode118,
-            treeNode120});
-            this.treeView1.Size = new System.Drawing.Size(159, 636);
+            treeNode5,
+            treeNode14,
+            treeNode18,
+            treeNode23,
+            treeNode28,
+            treeNode30});
+            this.treeView1.Size = new System.Drawing.Size(161, 638);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -169,13 +170,27 @@
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.AutoScroll = true;
             this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel1.Location = new System.Drawing.Point(159, 1);
+            this.panel1.Location = new System.Drawing.Point(159, 50);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1272, 636);
+            this.panel1.Size = new System.Drawing.Size(1272, 586);
             this.panel1.TabIndex = 1;
+            // 
+            // contorl_panel
+            // 
+            this.contorl_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.contorl_panel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.contorl_panel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.contorl_panel.Location = new System.Drawing.Point(160, 1);
+            this.contorl_panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.contorl_panel.Name = "contorl_panel";
+            this.contorl_panel.Size = new System.Drawing.Size(1271, 50);
+            this.contorl_panel.TabIndex = 2;
             // 
             // main
             // 
@@ -183,6 +198,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1429, 637);
+            this.Controls.Add(this.contorl_panel);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -200,5 +216,6 @@
 
         private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Panel contorl_panel;
     }
 }

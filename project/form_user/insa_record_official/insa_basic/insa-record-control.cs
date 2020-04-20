@@ -113,6 +113,7 @@ namespace project
             click_mode = "insert";
             applyEnabled(true);
             buttonEnabled(false);
+            textbox_enable(true);
         }
 
         private void update_b_Click(object sender, EventArgs e)
@@ -120,7 +121,8 @@ namespace project
             click_mode = "update";
             applyEnabled(true);
             buttonEnabled(false);
-            
+            textbox_enable(true);
+
         }
 
         private void delete_b_Click(object sender, EventArgs e)
@@ -129,6 +131,12 @@ namespace project
             applyEnabled(true);
             buttonEnabled(false);
             textbox_enable(false);
+        }
+
+        public void test()
+        {
+            Console.WriteLine("suceess");
+            email1_box.Text = "ok";
         }
 
         private void apply_b_Click(object sender, EventArgs e)

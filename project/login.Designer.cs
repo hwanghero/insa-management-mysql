@@ -35,26 +35,27 @@
             this.idbox = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.admin_radio = new System.Windows.Forms.RadioButton();
-            this.user_radio = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // pwbox
             // 
             this.pwbox.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.pwbox.Location = new System.Drawing.Point(221, 96);
+            this.pwbox.Location = new System.Drawing.Point(193, 77);
+            this.pwbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pwbox.Multiline = true;
             this.pwbox.Name = "pwbox";
             this.pwbox.PasswordChar = '*';
-            this.pwbox.Size = new System.Drawing.Size(281, 47);
+            this.pwbox.Size = new System.Drawing.Size(246, 38);
             this.pwbox.TabIndex = 0;
+            this.pwbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pwbox_KeyDown);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(53, 191);
+            this.button1.Location = new System.Drawing.Point(46, 153);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(218, 63);
+            this.button1.Size = new System.Drawing.Size(191, 50);
             this.button1.TabIndex = 1;
             this.button1.Text = "로그인";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,9 +65,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(84, 46);
+            this.label1.Location = new System.Drawing.Point(74, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 38);
+            this.label1.Size = new System.Drawing.Size(103, 30);
             this.label1.TabIndex = 2;
             this.label1.Text = "아이디";
             // 
@@ -74,28 +75,30 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(47, 100);
+            this.label2.Location = new System.Drawing.Point(41, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 38);
+            this.label2.Size = new System.Drawing.Size(133, 30);
             this.label2.TabIndex = 3;
             this.label2.Text = "비밀번호";
             // 
             // idbox
             // 
             this.idbox.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.idbox.Location = new System.Drawing.Point(221, 40);
+            this.idbox.Location = new System.Drawing.Point(193, 32);
+            this.idbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.idbox.Multiline = true;
             this.idbox.Name = "idbox";
-            this.idbox.Size = new System.Drawing.Size(281, 47);
+            this.idbox.Size = new System.Drawing.Size(246, 38);
             this.idbox.TabIndex = 0;
             this.idbox.TextChanged += new System.EventHandler(this.idbox_TextChanged);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("굴림", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button2.Location = new System.Drawing.Point(293, 191);
+            this.button2.Location = new System.Drawing.Point(256, 153);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(209, 63);
+            this.button2.Size = new System.Drawing.Size(183, 50);
             this.button2.TabIndex = 4;
             this.button2.Text = "종료";
             this.button2.UseVisualStyleBackColor = true;
@@ -105,46 +108,21 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.checkBox1.Location = new System.Drawing.Point(371, 154);
+            this.checkBox1.Location = new System.Drawing.Point(325, 123);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(131, 24);
+            this.checkBox1.Size = new System.Drawing.Size(107, 20);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "아이디저장";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // admin_radio
+            // login
             // 
-            this.admin_radio.AutoSize = true;
-            this.admin_radio.Font = new System.Drawing.Font("굴림", 12F);
-            this.admin_radio.Location = new System.Drawing.Point(63, 153);
-            this.admin_radio.Name = "admin_radio";
-            this.admin_radio.Size = new System.Drawing.Size(90, 24);
-            this.admin_radio.TabIndex = 6;
-            this.admin_radio.Text = "관리자";
-            this.admin_radio.UseVisualStyleBackColor = true;
-            // 
-            // user_radio
-            // 
-            this.user_radio.AutoSize = true;
-            this.user_radio.Checked = true;
-            this.user_radio.Font = new System.Drawing.Font("굴림", 12F);
-            this.user_radio.Location = new System.Drawing.Point(159, 153);
-            this.user_radio.Name = "user_radio";
-            this.user_radio.Size = new System.Drawing.Size(90, 24);
-            this.user_radio.TabIndex = 7;
-            this.user_radio.TabStop = true;
-            this.user_radio.Text = "사용자";
-            this.user_radio.UseVisualStyleBackColor = true;
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(555, 285);
-            this.Controls.Add(this.user_radio);
-            this.Controls.Add(this.admin_radio);
+            this.ClientSize = new System.Drawing.Size(486, 228);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
@@ -152,9 +130,11 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.idbox);
             this.Controls.Add(this.pwbox);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "login";
             this.Text = "인사관리시스템 - 로그인";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.login_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,8 +149,6 @@
         private System.Windows.Forms.TextBox idbox;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.RadioButton admin_radio;
-        private System.Windows.Forms.RadioButton user_radio;
     }
 }
 
