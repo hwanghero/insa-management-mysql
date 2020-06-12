@@ -38,9 +38,14 @@ namespace project
             if (e.Node.Text.Equals("인사기본사항"))
             {
                 form_control = new form_control(insacontrol);
+                form_control.TopLevel = false;
+                this.Controls.Add(form_control);
+                form_control.Parent = this.contorl_panel;
+                form_control.ControlBox = false;
 
-                insacontrol.Show();
+                insacontrol.Show(); 
                 form_control.Show();
+                
             }
             if (e.Node.Text.Equals("비밀번호 변경"))
             {
@@ -55,11 +60,6 @@ namespace project
             {
                 admin_user_info.Show();
             }
-
-            form_control.TopLevel = false;
-            this.Controls.Add(form_control);
-            form_control.Parent = this.contorl_panel;
-            form_control.ControlBox = false;
 
             form_user.form_control.set_mode(e.Node.Text);
             this.Text = "인사관리프로그램 - " + e.Node.Text;
